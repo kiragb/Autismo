@@ -4,39 +4,37 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
-import com.example.aplicativopi.R
 
-class Menu_Videos_Educativos : AppCompatActivity() {
+class Menu_Saiba_Mais : AppCompatActivity() {
 
     var videos: ImageView? = null
     var inicio: ImageView? = null
-    var video: ImageView? = null
- var saibamais: ImageView? = null
+    var saibamais: ImageView? = null
+var saibamaisicon: ImageView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_menu_videos_educativos)
-        videos = findViewById(R.id.menu)
+        setContentView(R.layout.activity_menu_saiba_mais)
+
+        videos = findViewById(R.id.videoicon)
         videos!!.setOnClickListener {
-            val intent = Intent(this@Menu_Videos_Educativos, Videos_Educativos::class.java)
+            val intent = Intent(this@Menu_Saiba_Mais, Videos_Educativos::class.java)
             startActivity(intent)
         }
         saibamais = findViewById(R.id.saibamais)
         saibamais!!.setOnClickListener {
-            val intent = Intent(this@Menu_Videos_Educativos, Saiba_Mais::class.java)
+            val intent = Intent(this@Menu_Saiba_Mais, Saiba_Mais::class.java)
             startActivity(intent)
         }
-
-        video = findViewById(R.id.videoicon)
-        video!!.setOnClickListener {
-            val intent = Intent(this@Menu_Videos_Educativos, Videos_Educativos::class.java)
+        saibamaisicon = findViewById(R.id.menu)
+        saibamaisicon!!.setOnClickListener {
+            val intent = Intent(this@Menu_Saiba_Mais, Saiba_Mais::class.java)
             startActivity(intent)
         }
 
         inicio = findViewById(R.id.casa)
         inicio!!.setOnClickListener {
-            val intent = Intent(this@Menu_Videos_Educativos, MainActivity::class.java)
+            val intent = Intent(this@Menu_Saiba_Mais, MainActivity::class.java)
             startActivity(intent)
         }
-
     }
 }

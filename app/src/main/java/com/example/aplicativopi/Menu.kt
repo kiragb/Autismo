@@ -11,9 +11,17 @@ class Menu : AppCompatActivity() {
     var inicio: ImageView? = null
     var videoicon: ImageView?= null
     var casa: ImageView? = null
+    var saibamais: ImageView?= null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
+
+        saibamais = findViewById(R.id.saibamais)
+        saibamais!!.setOnClickListener {
+            val intent = Intent(this@Menu, Saiba_Mais::class.java)
+            startActivity(intent)
+        }
 
         inicio = findViewById(R.id.menu)
         inicio!!.setOnClickListener {
@@ -32,6 +40,8 @@ class Menu : AppCompatActivity() {
             val intent = Intent(this@Menu, Videos_Educativos::class.java)
             startActivity(intent)
         }
+
+
 
     }
 
