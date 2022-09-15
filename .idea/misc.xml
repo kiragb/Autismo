@@ -8,12 +8,15 @@
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/botao_inicial.xml" value="0.1735" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/btamarelo.xml" value="0.2045" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/cards_iniciais.xml" value="0.1735" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/degrade_menu.xml" value="0.2115" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/menu.xml" value="0.1715" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/font/bryndan_write.xml" value="0.234375" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/font/entrada.xml" value="0.23333333333333334" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/font/fontes.xml" value="0.234375" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/font/lobster_regular.xml" value="0.23333333333333334" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_menu.xml" value="0.2" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_videos_educativos.xml" value="0.1675929884566054" />
       </map>
     </option>
   </component>

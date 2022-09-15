@@ -69,7 +69,7 @@
 
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/menu"
             android:layout_width="70dp"
             android:layout_height="41dp"
             android:layout_marginLeft="300sp"
@@ -215,7 +215,7 @@
             android:layout_marginTop="-100sp"
             android:fontFamily="@font/bryndan"
             android:gravity="center"
-            android:text="Antecessores e Sucessores"
+            android:text="Jogo das Sílabas"
             android:textColor="#D6417D"
             android:textSize="25sp"
             android:translationZ="90sp"

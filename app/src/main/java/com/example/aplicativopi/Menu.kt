@@ -3,20 +3,22 @@ package com.example.aplicativopi
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageView
+import com.example.aplicativopi.R
 
-class MainActivity : AppCompatActivity() {
-
-    var menu: ImageView? = null
+class Menu : AppCompatActivity() {
+    var inicio: ImageView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_menu)
 
-        menu = findViewById(R.id.menu)
-        menu!!.setOnClickListener {
-            val intent = Intent(this@MainActivity, Menu::class.java)
+        inicio = findViewById(R.id.menu)
+        inicio!!.setOnClickListener {
+            val intent = Intent(this@Menu, MainActivity::class.java)
             startActivity(intent)
         }
+
     }
+
+
 }
