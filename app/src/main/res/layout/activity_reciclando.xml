@@ -144,10 +144,12 @@
 
             <ImageView
                 android:layout_width="352dp"
-                android:layout_height="42dp"
+                android:layout_height="51dp"
                 android:layout_marginLeft="15sp"
                 android:layout_marginTop="-50sp"
-                android:src="@drawable/borda_acoes"></ImageView>
+                android:src="@drawable/borda_acoes">
+
+            </ImageView>
 
             <TextView
                 android:id="@+id/reciclarpdf"

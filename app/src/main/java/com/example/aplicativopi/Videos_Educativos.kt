@@ -13,6 +13,8 @@ class Videos_Educativos : AppCompatActivity() {
     var acoescotidianas: Button? = null
     var btnatureza: Button? = null
     var btmusicas: Button? = null
+    var idmat: Button? = null
+    var idvocab: Button? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_videos_educativos)
@@ -35,6 +37,18 @@ class Videos_Educativos : AppCompatActivity() {
         btmusicas = findViewById(R.id.btmusicas)
         btmusicas!!.setOnClickListener {
             val intent = Intent(this@Videos_Educativos, Musicas_Educativas::class.java)
+            startActivity(intent)
+        }
+
+        idmat = findViewById(R.id.idmat)
+        idmat!!.setOnClickListener {
+            val intent = Intent(this@Videos_Educativos, Matematica::class.java)
+            startActivity(intent)
+        }
+
+        idvocab = findViewById(R.id.idvocab)
+        idvocab!!.setOnClickListener {
+            val intent = Intent(this@Videos_Educativos, Vocabulario::class.java)
             startActivity(intent)
         }
     }

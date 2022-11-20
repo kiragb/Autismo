@@ -1,9 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Mariana">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFDF9"
+    tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFDF9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="720dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="410dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.002">
+
+            </Button>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="111dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="-25dp"
+                android:layout_marginTop="-50dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="@+id/button"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/button"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:layout_width="108dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="@font/adlery"
+                android:gravity="center"
+                android:text="BRINK+"
+                android:textColor="#2E0084"
+                android:textSize="40dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="@+id/button"
+                app:layout_constraintHorizontal_bias="0.182"
+                app:layout_constraintStart_toStartOf="@+id/button"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="1.0">
+
+            </TextView>
+
+
+            <ImageView
+                android:id="@+id/menu"
+                android:layout_width="70dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="-40dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/button"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="0.647"
+                app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="73dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center"
+                android:text="MaRiAnA -
+                gAlInHa PiNtAdInHa"
+                android:textAllCaps="false"
+                android:textColor="#454040"
+                android:textSize="30sp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="352dp"
+                android:layout_height="312dp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="30sp"
+                app:srcCompat="@drawable/borda_acoes" />
+
+
+            <VideoView
+                android:id="@+id/simpleVideoView"
+                android:layout_width="299dp"
+                android:layout_height="166dp"
+                android:layout_marginLeft="45sp"
+                android:layout_marginTop="-280sp" />
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="137dp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/bryndan"
+                android:justificationMode="inter_word"
+                android:lineHeight="30sp"
+                android:text="Aprenda a contar os números cantando junto com a Mariana!"
+                android:textColor="#201F1F"
+                android:textSize="23sp"
+                android:textStyle="normal" />
+
+
+            <ImageView
+                android:id="@+id/gotas"
+                android:layout_width="70dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="-460dp"
+                app:srcCompat="@drawable/gotas" />
+
+            <ImageView
+                android:id="@+id/gotas2"
+                android:layout_width="70dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="315sp"
+                android:layout_marginTop="-70dp"
+                android:rotationY="180"
+                app:srcCompat="@drawable/gotas" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

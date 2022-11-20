@@ -16,6 +16,51 @@
         android:theme="@style/Theme.AplicativoPI"
         tools:targetApi="31">
         <activity
+            android:name=".O_Que_e_DI"
+            android:exported="false" />
+        <activity
+            android:name=".Lado"
+            android:exported="false" />
+        <activity
+            android:name=".Alfabeto"
+            android:exported="false" />
+        <activity
+            android:name=".Numeros"
+            android:exported="false" />
+        <activity
+            android:name=".Selvagens"
+            android:exported="false" />
+        <activity
+            android:name=".Fazenda"
+            android:exported="false" />
+        <activity
+            android:name=".Domesticos"
+            android:exported="false" />
+        <activity
+            android:name=".Vocabulario"
+            android:exported="false" />
+        <activity
+            android:name=".Origanizacao"
+            android:exported="false" />
+        <activity
+            android:name=".Palavinhas_Magicas"
+            android:exported="false" />
+        <activity
+            android:name=".Kent"
+            android:exported="false" />
+        <activity
+            android:name=".Formas"
+            android:exported="false" />
+        <activity
+            android:name=".Matematica"
+            android:exported="false" />
+        <activity
+            android:name=".Banho"
+            android:exported="false" />
+        <activity
+            android:name=".Coleta"
+            android:exported="false" />
+        <activity
             android:name=".Mariana"
             android:exported="false" />
         <activity

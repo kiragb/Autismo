@@ -20,24 +20,40 @@
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/font/fontes.xml" value="0.234375" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/font/lobster_regular.xml" value="0.23333333333333334" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_acoes_cotidianas.xml" value="0.18" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_alfabeto.xml" value="0.19010416666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_amigossauro.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_banho.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_coleta.xml" value="0.19010416666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_cuidar_meio_ambiete.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_domesticos.xml" value="0.19010416666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_escovar_dentinhos.xml" value="0.20416666666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_fale_conosco.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_fazenda.xml" value="0.1890625" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_formas.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_kent.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_lado.xml" value="0.19010416666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_mariana.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_matematica.xml" value="0.20416666666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_menu.xml" value="0.2" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_menu_quem_somos.xml" value="0.19010416666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_menu_saiba_mais.xml" value="0.15604959384352288" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_menu_tutoriais.xml" value="0.15604959384352288" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_menu_videos_educativos.xml" value="0.1675929884566054" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_musicas_educativas.xml" value="0.16" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_numeros.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_oque_edi.xml" value="0.25" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_oque_emeio_ambiente.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_origanizacao.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_palavinhas_magicas.xml" value="0.19010416666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_preservando_natureza.xml" value="0.20416666666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_quem_somos.xml" value="0.22" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_reciclando.xml" value="0.19010416666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_saiba_mais.xml" value="0.1675929884566054" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_selvagens.xml" value="0.19010416666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_tutoriais.xml" value="0.31869918699186994" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_videos_educativos.xml" value="0.25" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_vocabulario.xml" value="0.19010416666666666" />
       </map>
     </option>
   </component>

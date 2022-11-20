@@ -11,7 +11,6 @@ class Amigossauro : AppCompatActivity() {
 
     var simpleVideoView: VideoView? = null
     var mediaControls: MediaController? = null
-    var cuidarpdf: TextView? = null
     var menu: ImageView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {

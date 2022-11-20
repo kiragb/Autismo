@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFDF9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFDF9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1240dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="410dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.002">
+
+            </Button>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="111dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="-25dp"
+                android:layout_marginTop="-50dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="@+id/button"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/button"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:layout_width="108dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="@font/adlery"
+                android:gravity="center"
+                android:text="BRINK+"
+                android:textColor="#2E0084"
+                android:textSize="40dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="@+id/button"
+                app:layout_constraintHorizontal_bias="0.182"
+                app:layout_constraintStart_toStartOf="@+id/button"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="1.0">
+
+            </TextView>
+
+
+            <ImageView
+                android:id="@+id/menu"
+                android:layout_width="70dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="-40dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/button"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="0.647"
+                app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="91dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center"
+                android:text="VoCáBuLaRiO"
+                android:textAllCaps="false"
+                android:textColor="#454040"
+                android:textSize="30sp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="326dp"
+                android:layout_height="334dp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="30sp"
+                app:srcCompat="@drawable/grade_amarela" />
+
+            <TextView
+                android:id="@+id/textanimais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60sp"
+                android:layout_marginTop="-300sp"
+                android:fontFamily="@font/bryndan"
+                android:text="OS Animais Domésticos"
+                android:textColor="#E8BF70"
+                android:textSize="25sp">
+
+            </TextView>
+
+
+            <ImageView
+                android:id="@+id/animais"
+                android:layout_width="311dp"
+                android:layout_height="151dp"
+                android:layout_marginLeft="32sp"
+                android:layout_marginTop="15sp"
+                android:src="@drawable/video1"
+                android:translationZ="90dp" />
+
+            <TextView
+                android:id="@+id/descrianimais"
+                android:layout_width="282dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="45sp"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/bryndan"
+                android:justificationMode="inter_word"
+                android:lineHeight="30sp"
+                android:text="Nesse vídeo a criança irá aprender alguns animais... "
+                android:textColor="#201F1F"
+                android:textSize="23sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="326dp"
+                android:layout_height="334dp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="50sp"
+                app:srcCompat="@drawable/borda_rosa" />
+
+            <TextView
+                android:id="@+id/textfazenda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60sp"
+                android:layout_marginTop="-300sp"
+                android:fontFamily="@font/bryndan"
+                android:text="Os Animais da Fazenda"
+                android:textColor="#D6417D"
+                android:textSize="25sp">
+
+            </TextView>
+
+
+            <ImageView
+                android:id="@+id/fazenda"
+                android:layout_width="311dp"
+                android:layout_height="151dp"
+                android:layout_marginLeft="32sp"
+                android:layout_marginTop="15sp"
+                android:src="@drawable/video1"
+                android:translationZ="90dp" />
+
+            <TextView
+                android:id="@+id/descrifazenda"
+                android:layout_width="282dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="45sp"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/bryndan"
+                android:justificationMode="inter_word"
+                android:lineHeight="30sp"
+                android:text="ssistindo esse vídeo, a criança aprenderá..."
+                android:textColor="#201F1F"
+                android:textSize="23sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="326dp"
+                android:layout_height="334dp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="50sp"
+                app:srcCompat="@drawable/grade_amarela" />
+
+            <TextView
+                android:id="@+id/textselvagens"
+                android:layout_width="wrap_content"
+                android:layout_height="62dp"
+                android:layout_marginLeft="75sp"
+                android:layout_marginTop="-300sp"
+                android:fontFamily="@font/bryndan"
+                android:text="Os Animais Selvagens"
+                android:textColor="#E8BF70"
+                android:textSize="25sp">
+
+            </TextView>
+
+
+            <ImageView
+                android:id="@+id/selvagens"
+                android:layout_width="311dp"
+                android:layout_height="151dp"
+                android:layout_marginLeft="32sp"
+                android:layout_marginTop="-20sp"
+                android:src="@drawable/video1"
+                android:translationZ="90dp" />
+
+            <TextView
+                android:id="@+id/descriselvagens"
+                android:layout_width="282dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="45sp"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/bryndan"
+                android:justificationMode="inter_word"
+                android:lineHeight="30sp"
+                android:text="Que interessante seria a criança aprender alguns..."
+                android:textColor="#201F1F"
+                android:textSize="23sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/gotas"
+                android:layout_width="70dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="-1110dp"
+                app:srcCompat="@drawable/gotas" />
+
+            <ImageView
+                android:id="@+id/gotas2"
+                android:layout_width="70dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="275sp"
+                android:layout_marginTop="-70dp"
+                android:rotationY="180"
+                app:srcCompat="@drawable/gotas" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

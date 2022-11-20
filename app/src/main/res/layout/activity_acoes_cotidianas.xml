@@ -17,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="1200dp"
             android:orientation="vertical">
+
             <Button
                 android:id="@+id/button"
                 android:layout_width="410dp"
@@ -91,7 +92,7 @@
                 android:layout_marginTop="40dp"
                 android:fontFamily="@font/bryndan"
                 android:gravity="center"
-                android:text="AcÕeS CoTiDiAnAs"
+                android:text="AçÕeS CoTiDiAnAs"
                 android:textAllCaps="false"
                 android:textColor="#454040"
                 android:textSize="30sp">
@@ -110,12 +111,12 @@
                 android:id="@+id/textescovar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-300sp"
                 android:layout_marginLeft="60sp"
-                android:textSize="25sp"
-                android:textColor="#E8BF70"
+                android:layout_marginTop="-300sp"
                 android:fontFamily="@font/bryndan"
-                android:text="Escovando os dentinhos">
+                android:text="Escovando os dentinhos"
+                android:textColor="#E8BF70"
+                android:textSize="25sp">
 
             </TextView>
 
@@ -147,25 +148,26 @@
                 android:id="@+id/imageView2"
                 android:layout_width="326dp"
                 android:layout_height="334dp"
-                android:layout_marginTop="50sp"
                 android:layout_marginLeft="25sp"
+                android:layout_marginTop="50sp"
                 app:srcCompat="@drawable/borda_rosa" />
 
             <TextView
+                android:id="@+id/textpalavras"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-300sp"
                 android:layout_marginLeft="60sp"
-                android:textSize="25sp"
-                android:textColor="#D6417D"
+                android:layout_marginTop="-300sp"
                 android:fontFamily="@font/bryndan"
-                android:text="Amarrando os cadarços">
+                android:text="Palavrianhas Mágicas"
+                android:textColor="#D6417D"
+                android:textSize="25sp">
 
             </TextView>
 
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/palavras"
                 android:layout_width="311dp"
                 android:layout_height="151dp"
                 android:layout_marginLeft="32sp"
@@ -174,43 +176,72 @@
                 android:translationZ="90dp" />
 
 
+            <TextView
+                android:id="@+id/descripalavras"
+                android:layout_width="282dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="45sp"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/bryndan"
+                android:justificationMode="inter_word"
+                android:lineHeight="30sp"
+                android:text="Aqui vamos fazer uma aventura com a turminha..."
+                android:textColor="#201F1F"
+                android:textSize="23sp"
+                android:textStyle="normal" />
+
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="326dp"
                 android:layout_height="334dp"
-                android:layout_marginTop="120sp"
                 android:layout_marginLeft="25sp"
-                app:srcCompat="@drawable/grade_amarela" />
+                android:layout_marginTop="55sp"
+                app:srcCompat="@drawable/borda_acoes" />
+
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="30sp"
-                android:layout_marginTop="-300sp"
-                android:layout_marginLeft="80sp"
-                android:textSize="25sp"
-                android:text="Dobrando as roupas"
-                android:translationZ="90sp"
-                android:textColor="#E8BF70"
+                android:id="@+id/textmika"
+                android:layout_width="269dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="50sp"
+                android:layout_marginTop="-310sp"
                 android:fontFamily="@font/bryndan"
-                >
+                android:gravity="center"
+                android:text="O Diário de Mika - Organização"
+                android:textColor="#E8BF70"
+                android:textSize="25sp"
+                android:translationZ="90sp">
 
             </TextView>
 
-
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/mika"
                 android:layout_width="311dp"
                 android:layout_height="151dp"
                 android:layout_marginLeft="32sp"
-                android:layout_marginTop="25sp"
+                android:layout_marginTop="5sp"
                 android:src="@drawable/video1" />
+
+            <TextView
+                android:id="@+id/descrimika"
+                android:layout_width="282dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="45sp"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/bryndan"
+                android:justificationMode="inter_word"
+                android:lineHeight="30sp"
+                android:text="Aqui vamos fazer uma aventura com a turminha..."
+                android:textColor="#201F1F"
+                android:textSize="23sp"
+                android:textStyle="normal" />
 
             <ImageView
                 android:id="@+id/gotas"
                 android:layout_width="70dp"
                 android:layout_height="68dp"
                 android:layout_marginLeft="5sp"
-                android:layout_marginTop="-1015dp"
+                android:layout_marginTop="-1095dp"
                 app:srcCompat="@drawable/gotas" />
 
             <ImageView

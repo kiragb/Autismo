@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
 
     var menu: ImageView? = null
     var acoescotidianas: Button? = null
+    var musica: Button? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -22,6 +23,12 @@ class MainActivity : AppCompatActivity() {
         acoescotidianas = findViewById(R.id.acoescotidianas)
         acoescotidianas!!.setOnClickListener {
             val intent = Intent(this@MainActivity, Acoes_Cotidianas::class.java)
+            startActivity(intent)
+        }
+
+        musica = findViewById(R.id.musica)
+        musica!!.setOnClickListener {
+            val intent = Intent(this@MainActivity, Musicas_Educativas::class.java)
             startActivity(intent)
         }
     }

@@ -143,7 +143,7 @@
                     android:id="@+id/imageView"
                     android:layout_width="169dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/video1"
+                    android:src="@drawable/antecessores"
                     android:translationZ="90dp"
                     app:layout_constraintBottom_toBottomOf="@+id/button2"
                     app:layout_constraintEnd_toEndOf="@+id/button2"
@@ -202,7 +202,7 @@
                     android:id="@+id/imageView4"
                     android:layout_width="169dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/video1"
+                    android:src="@drawable/silabas"
                     android:translationZ="90dp"
                     app:layout_constraintBottom_toBottomOf="@+id/button5"
                     app:layout_constraintEnd_toEndOf="@+id/button5"
@@ -372,7 +372,7 @@
                     app:layout_constraintVertical_bias="0.138" />
 
                 <Button
-                    android:id="@+id/button8"
+                    android:id="@+id/musica"
                     android:layout_width="wrap_content"
                     android:layout_height="47dp"
                     android:background="@drawable/botao_inicial"
