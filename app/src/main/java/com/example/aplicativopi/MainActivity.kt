@@ -9,6 +9,7 @@ import android.widget.ImageView
 class MainActivity : AppCompatActivity() {
 
     var menu: ImageView? = null
+    var acoescotidianas: Button? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -16,6 +17,11 @@ class MainActivity : AppCompatActivity() {
         menu = findViewById(R.id.menu)
         menu!!.setOnClickListener {
             val intent = Intent(this@MainActivity, Menu::class.java)
+            startActivity(intent)
+        }
+        acoescotidianas = findViewById(R.id.acoescotidianas)
+        acoescotidianas!!.setOnClickListener {
+            val intent = Intent(this@MainActivity, Acoes_Cotidianas::class.java)
             startActivity(intent)
         }
     }

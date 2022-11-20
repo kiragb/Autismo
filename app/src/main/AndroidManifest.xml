@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.aplicativopi">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +15,48 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AplicativoPI"
         tools:targetApi="31">
+        <activity
+            android:name=".Mariana"
+            android:exported="false" />
+        <activity
+            android:name=".Amigossauro"
+            android:exported="false" />
+        <activity
+            android:name=".Musicas_Educativas"
+            android:exported="false" />
+        <activity
+            android:name=".Reciclando"
+            android:exported="false" />
+        <activity
+            android:name=".Cuidar_Meio_Ambiete"
+            android:exported="false" />
+        <activity
+            android:name=".O_Que_E_Meio_Ambiente"
+            android:exported="false" />
+        <activity
+            android:name=".Preservando_Natureza"
+            android:exported="false" />
+        <activity
+            android:name=".Escovar_Dentinhos"
+            android:exported="false" />
+        <activity
+            android:name=".Acoes_Cotidianas"
+            android:exported="false" />
+        <activity
+            android:name=".Fale_Conosco"
+            android:exported="false" />
+        <activity
+            android:name=".Menu_Quem_Somos"
+            android:exported="false" />
+        <activity
+            android:name=".Quem_Somos"
+            android:exported="false" />
+        <activity
+            android:name=".Menu_Tutoriais"
+            android:exported="false" />
+        <activity
+            android:name=".Tutoriais"
+            android:exported="false" />
         <activity
             android:name=".Menu_Saiba_Mais"
             android:exported="false" />

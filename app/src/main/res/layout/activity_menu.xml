@@ -12,8 +12,8 @@
         android:id="@+id/imageView3"
         android:layout_width="111dp"
         android:layout_height="50dp"
-        android:translationZ="90sp"
-        android:layout_marginLeft="-25sp"
+        android:translationZ="90dp"
+        android:layout_marginLeft="-25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -26,13 +26,13 @@
         android:id="@+id/textView4"
         android:layout_width="108dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="-30sp"
+        android:layout_marginLeft="-30dp"
         android:fontFamily="@font/adlery"
         android:gravity="center"
         android:text="BRINK+"
         android:textColor="#2E0084"
-        android:textSize="40sp"
-        android:translationZ="90sp"
+        android:textSize="40dp"
+        android:translationZ="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/menu"
         app:layout_constraintHorizontal_bias="0.0"
@@ -47,7 +47,7 @@
         android:layout_width="70dp"
         android:layout_height="41dp"
         android:src="@drawable/ic_baseline_menu_24"
-        android:translationZ="90sp"
+        android:translationZ="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.912"
@@ -57,55 +57,56 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="129dp"
-        android:layout_height="124dp"
+        android:layout_width="124dp"
+        android:layout_height="116dp"
         android:background="@drawable/degrade_menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintHorizontal_bias="0.064"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.14">
+        app:layout_constraintVertical_bias="0.164">
 
     </Button>
 
     <TextView
         android:layout_width="162dp"
         android:layout_height="38dp"
+        android:layout_marginBottom="16dp"
         android:fontFamily="@font/bryndan"
         android:gravity="center"
         android:text="Quem Somos"
         android:textColor="#2E0084"
-        android:textSize="30sp"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintHorizontal_bias="0.015"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.807">
+        app:layout_constraintTop_toBottomOf="@+id/quemsomos"
+        app:layout_constraintVertical_bias="0.509">
 
     </TextView>
 
     <Button
         android:id="@+id/b2"
-        android:layout_width="129dp"
-        android:layout_height="124dp"
+        android:layout_width="124dp"
+        android:layout_height="116dp"
         android:background="@drawable/degrade_menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintHorizontal_bias="0.879"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.139">
+        app:layout_constraintVertical_bias="0.163">
 
     </Button>
 
     <ImageView
         android:id="@+id/saibamais"
-        android:layout_width="113dp"
-        android:layout_height="108dp"
+        android:layout_width="117dp"
+        android:layout_height="104dp"
         android:src="@drawable/luzicon"
-        android:translationZ="90sp"
+        android:translationZ="90dp"
         app:layout_constraintBottom_toBottomOf="@+id/b2"
         app:layout_constraintEnd_toEndOf="@+id/b2"
         app:layout_constraintHorizontal_bias="0.437"
@@ -115,44 +116,46 @@
 
     </ImageView>
 
+
     <TextView
-        android:layout_width="178dp"
-        android:layout_height="30dp"
+        android:layout_width="171dp"
+        android:layout_height="62dp"
+        android:layout_marginRight="-10dp"
         android:fontFamily="@font/bryndan"
         android:gravity="center"
-        android:text="Fale Conosco"
+        android:text="Fale
+        Conosco"
         android:textColor="#2E0084"
-        android:textSize="30sp"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.991"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.799">
+        app:layout_constraintTop_toBottomOf="@+id/faleconosco"
+        app:layout_constraintVertical_bias="0.36">
 
     </TextView>
 
     <Button
         android:id="@+id/b3"
-        android:layout_width="129dp"
-        android:layout_height="124dp"
+        android:layout_width="124dp"
+        android:layout_height="116dp"
         android:background="@drawable/degrade_menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintHorizontal_bias="0.064"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.43">
+        app:layout_constraintVertical_bias="0.487">
 
     </Button>
 
-
     <ImageView
         android:id="@+id/casa"
-        android:layout_width="108dp"
-        android:layout_height="106dp"
+        android:layout_width="117dp"
+        android:layout_height="104dp"
         android:src="@drawable/casaicon"
-        android:translationZ="90sp"
+        android:translationZ="90dp"
         app:layout_constraintBottom_toBottomOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="@+id/button3"
         app:layout_constraintHorizontal_bias="0.333"
@@ -169,27 +172,27 @@
         android:gravity="center"
         android:text="Início"
         android:textColor="#2E0084"
-        android:textSize="30sp"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintHorizontal_bias="0.077"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.287">
+        app:layout_constraintTop_toBottomOf="@+id/casa"
+        app:layout_constraintVertical_bias="0.048">
 
     </TextView>
 
     <Button
         android:id="@+id/b4"
-        android:layout_width="129dp"
-        android:layout_height="124dp"
+        android:layout_width="124dp"
+        android:layout_height="116dp"
         android:background="@drawable/degrade_menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.43">
+        app:layout_constraintVertical_bias="0.487">
 
     </Button>
 
@@ -200,27 +203,27 @@
         android:gravity="center"
         android:text="Saiba Mais"
         android:textColor="#2E0084"
-        android:textSize="30sp"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintHorizontal_bias="0.923"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.286">
+        app:layout_constraintTop_toBottomOf="@+id/saibamais"
+        app:layout_constraintVertical_bias="0.046">
 
     </TextView>
 
     <Button
         android:id="@+id/b6"
-        android:layout_width="129dp"
-        android:layout_height="124dp"
+        android:layout_width="124dp"
+        android:layout_height="116dp"
         android:background="@drawable/degrade_menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintHorizontal_bias="0.916"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.718">
+        app:layout_constraintVertical_bias="0.834">
 
     </Button>
 
@@ -231,27 +234,27 @@
         android:gravity="center"
         android:text="Tutoriais"
         android:textColor="#2E0084"
-        android:textSize="30sp"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintHorizontal_bias="0.092"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.546">
+        app:layout_constraintTop_toBottomOf="@+id/tutoriais"
+        app:layout_constraintVertical_bias="0.087">
 
     </TextView>
 
     <Button
         android:id="@+id/b5"
-        android:layout_width="129dp"
-        android:layout_height="124dp"
+        android:layout_width="124dp"
+        android:layout_height="116dp"
         android:background="@drawable/degrade_menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.719">
+        app:layout_constraintVertical_bias="0.823">
 
     </Button>
 
@@ -262,21 +265,22 @@
         android:gravity="center"
         android:text="Vídeos"
         android:textColor="#2E0084"
-        android:textSize="30sp"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintHorizontal_bias="0.872"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.544">
+        app:layout_constraintTop_toBottomOf="@+id/videoicon"
+        app:layout_constraintVertical_bias="0.091">
 
     </TextView>
 
     <ImageView
-        android:layout_width="110dp"
-        android:layout_height="100dp"
+        android:id="@+id/tutoriais"
+        android:layout_width="117dp"
+        android:layout_height="104dp"
         android:src="@drawable/tesouraicon"
-        android:translationZ="90sp"
+        android:translationZ="90dp"
         app:layout_constraintBottom_toBottomOf="@+id/b3"
         app:layout_constraintEnd_toEndOf="@+id/b3"
         app:layout_constraintHorizontal_bias="0.368"
@@ -287,11 +291,11 @@
 
     <ImageView
         android:id="@+id/videoicon"
-        android:layout_width="102dp"
-        android:layout_height="92dp"
-        android:layout_marginLeft="-10sp"
+        android:layout_width="117dp"
+        android:layout_height="104dp"
+        android:layout_marginLeft="-10dp"
         android:src="@drawable/videoicon"
-        android:translationZ="90sp"
+        android:translationZ="90dp"
         app:layout_constraintBottom_toBottomOf="@+id/b4"
         app:layout_constraintEnd_toEndOf="@+id/b4"
         app:layout_constraintHorizontal_bias="0.629"
@@ -302,10 +306,11 @@
     </ImageView>
 
     <ImageView
-        android:layout_width="119dp"
-        android:layout_height="112dp"
+        android:id="@id/quemsomos"
+        android:layout_width="117dp"
+        android:layout_height="104dp"
         android:src="@drawable/solicon"
-        android:translationZ="90sp"
+        android:translationZ="90dp"
         app:layout_constraintBottom_toBottomOf="@+id/b5"
         app:layout_constraintEnd_toEndOf="@+id/b5"
         app:layout_constraintHorizontal_bias="0.0"
@@ -316,10 +321,11 @@
     </ImageView>
 
     <ImageView
-        android:layout_width="113dp"
-        android:layout_height="102dp"
+        android:id="@+id/faleconosco"
+        android:layout_width="117dp"
+        android:layout_height="104dp"
         android:src="@drawable/grupoicon"
-        android:translationZ="90sp"
+        android:translationZ="90dp"
         android:layout_marginLeft="5dp"
         app:layout_constraintBottom_toBottomOf="@+id/b6"
         app:layout_constraintEnd_toEndOf="@+id/b6"

@@ -11,7 +11,10 @@ class Menu_Videos_Educativos : AppCompatActivity() {
     var videos: ImageView? = null
     var inicio: ImageView? = null
     var video: ImageView? = null
- var saibamais: ImageView? = null
+    var saibamais: ImageView? = null
+    var tutoriais: ImageView? = null
+    var quemsomos: ImageView? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu_videos_educativos)
@@ -37,6 +40,15 @@ class Menu_Videos_Educativos : AppCompatActivity() {
             val intent = Intent(this@Menu_Videos_Educativos, MainActivity::class.java)
             startActivity(intent)
         }
-
+        tutoriais = findViewById(R.id.tutoriais)
+        tutoriais!!.setOnClickListener {
+            val intent = Intent(this@Menu_Videos_Educativos, Tutoriais::class.java)
+            startActivity(intent)
+        }
+        quemsomos = findViewById(R.id.quemsomos)
+        quemsomos!!.setOnClickListener {
+            val intent = Intent(this@Menu_Videos_Educativos, Quem_Somos::class.java)
+            startActivity(intent)
+        }
     }
 }

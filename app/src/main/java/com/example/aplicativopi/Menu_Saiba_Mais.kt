@@ -11,6 +11,9 @@ class Menu_Saiba_Mais : AppCompatActivity() {
     var inicio: ImageView? = null
     var saibamais: ImageView? = null
 var saibamaisicon: ImageView? = null
+    var tutoriais: ImageView? = null
+    var quemsomos: ImageView? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu_saiba_mais)
@@ -34,6 +37,17 @@ var saibamaisicon: ImageView? = null
         inicio = findViewById(R.id.casa)
         inicio!!.setOnClickListener {
             val intent = Intent(this@Menu_Saiba_Mais, MainActivity::class.java)
+            startActivity(intent)
+        }
+        tutoriais = findViewById(R.id.tutoriais)
+        tutoriais!!.setOnClickListener {
+            val intent = Intent(this@Menu_Saiba_Mais, Tutoriais::class.java)
+            startActivity(intent)
+        }
+
+        quemsomos = findViewById(R.id.quemsomos)
+        quemsomos!!.setOnClickListener {
+            val intent = Intent(this@Menu_Saiba_Mais, Quem_Somos::class.java)
             startActivity(intent)
         }
     }
