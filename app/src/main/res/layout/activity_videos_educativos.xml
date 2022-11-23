@@ -261,7 +261,7 @@
                 android:layout_marginTop="-100dp"
                 android:fontFamily="@font/bryndan"
                 android:gravity="center"
-                android:text="Músicas Educativas"
+                android:text="Vocabulário"
                 android:textColor="#E8BF70"
                 android:textSize="25dp"
                 android:translationZ="90dp"
@@ -273,7 +273,7 @@
                 app:layout_constraintVertical_bias="0.029" />
 
             <Button
-                android:id="@+id/btmusicas"
+                android:id="@+id/idvocab"
                 android:layout_width="wrap_content"
                 android:layout_height="47dp"
                 android:layout_marginLeft="220dp"
@@ -381,7 +381,7 @@
                 android:layout_marginTop="-100dp"
                 android:fontFamily="@font/bryndan"
                 android:gravity="center"
-                android:text="Vocabulário"
+                android:text="Músicas Educativas"
                 android:textColor="#E8BF70"
                 android:textSize="25dp"
                 android:translationZ="90dp"
@@ -393,7 +393,7 @@
                 app:layout_constraintVertical_bias="0.029" />
 
             <Button
-                android:id="@+id/idvocab"
+                android:id="@+id/btmusicas"
                 android:layout_width="wrap_content"
                 android:layout_height="47dp"
                 android:layout_marginLeft="220dp"

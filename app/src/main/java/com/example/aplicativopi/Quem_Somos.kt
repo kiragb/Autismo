@@ -2,6 +2,7 @@ package com.example.aplicativopi
 
 import android.content.Intent
 import android.graphics.Color
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.method.LinkMovementMethod
@@ -12,11 +13,11 @@ import android.widget.TextView
 
 class Quem_Somos : AppCompatActivity() {
     var quemsomos: ImageView? = null
+    var link: TextView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quem_somos)
 
-        setupHyperlink()
 
         quemsomos = findViewById(R.id.menu)
         quemsomos!!.setOnClickListener {
@@ -24,11 +25,18 @@ class Quem_Somos : AppCompatActivity() {
             startActivity(intent)
         }
 
+        link = findViewById<View>(R.id.link) as TextView
+        link!!.setOnClickListener {
+            viewpdf() }
 
     }
-    fun setupHyperlink() {
-        val linkTextView = findViewById<TextView>(R.id.activity_main_link)
-        linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
-        linkTextView.setLinkTextColor(Color.BLUE)
+    private fun viewpdf() {
+        // add the link of pdf
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://brinquedosreutilizaveis.atspace.cc"))
+
+        // start activity
+        startActivity(intent)
     }
+
+
 }

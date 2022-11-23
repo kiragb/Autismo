@@ -5,407 +5,486 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#FFFDF9"
+    android:fillViewport="true"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:background="#FFFDF9"
+        android:gravity="fill"
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="2370dp"
+            android:layout_width="fill_parent"
+            android:layout_height="2820dp"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="410dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="-1dp"
-                android:background="@drawable/menu"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.002">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="2820dp"
+                android:orientation="vertical">
 
-            </Button>
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="410dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-1dp"
+                    android:background="@drawable/menu"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.002">
 
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="111dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="-25dp"
-                android:layout_marginTop="-50dp"
-                android:translationZ="90dp"
-                app:layout_constraintBottom_toBottomOf="@+id/button"
-                app:layout_constraintEnd_toEndOf="@+id/button"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/button"
-                app:layout_constraintTop_toTopOf="@+id/button"
-                app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/logo" />
+                </Button>
 
-            <TextView
-                android:layout_width="108dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="-50dp"
-                android:fontFamily="@font/adlery"
-                android:gravity="center"
-                android:text="BRINK+"
-                android:textColor="#2E0084"
-                android:textSize="40dp"
-                android:translationZ="90dp"
-                app:layout_constraintBottom_toBottomOf="@+id/button"
-                app:layout_constraintEnd_toEndOf="@+id/button"
-                app:layout_constraintHorizontal_bias="0.182"
-                app:layout_constraintStart_toStartOf="@+id/button"
-                app:layout_constraintTop_toTopOf="@+id/button"
-                app:layout_constraintVertical_bias="1.0">
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="111dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-25dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/logo" />
 
-            </TextView>
+                <TextView
+                    android:layout_width="108dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:fontFamily="@font/adlery"
+                    android:gravity="center"
+                    android:text="BRINK+"
+                    android:textColor="#2E0084"
+                    android:textSize="40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.182"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0">
 
-
-            <ImageView
-                android:id="@+id/menu"
-                android:layout_width="70dp"
-                android:layout_height="41dp"
-                android:layout_marginLeft="300dp"
-                android:layout_marginTop="-40dp"
-                android:translationZ="90dp"
-                app:layout_constraintBottom_toBottomOf="@+id/button"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="@+id/button"
-                app:layout_constraintTop_toTopOf="@+id/button"
-                app:layout_constraintVertical_bias="0.647"
-                app:srcCompat="@drawable/ic_baseline_menu_24" />
+                </TextView>
 
 
-            <TextView
-                android:layout_width="333dp"
-                android:layout_height="91dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/bryndan"
-                android:gravity="center"
-                android:text="MúSiCaS EduCaTiVaS"
-                android:textAllCaps="false"
-                android:textColor="#454040"
-                android:textSize="30sp">
+                <ImageView
+                    android:id="@+id/menu"
+                    android:layout_width="70dp"
+                    android:layout_height="41dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="-40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.997"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/ic_baseline_menu_24" />
 
-            </TextView>
+                <ImageView
+                    android:id="@+id/gotas"
+                    android:layout_width="70dp"
+                    android:layout_height="68dp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/gotas" />
 
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="326dp"
-                android:layout_height="356dp"
-                android:layout_marginLeft="25sp"
-                android:layout_marginTop="-20sp"
-                app:srcCompat="@drawable/grade_amarela" />
+                <ImageView
+                    android:id="@+id/gotas2"
+                    android:layout_width="70dp"
+                    android:layout_height="68dp"
+                    android:layout_marginTop="32dp"
+                    android:rotationY="180"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.997"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/menu"
+                    app:srcCompat="@drawable/gotas" />
 
-            <TextView
-                android:id="@+id/textamigo"
-                android:layout_width="332dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="25sp"
-                android:layout_marginTop="-320sp"
-                android:fontFamily="@font/bryndan"
-                android:gravity="center"
-                android:text="Amigossauro - amarrar
-                o sapato"
-                android:textColor="#E8BF70"
-                android:textSize="25sp">
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="324dp"
+                    android:layout_height="44dp"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="MúSiCaS EduCaTiVaS"
+                    android:textAllCaps="false"
+                    android:textColor="#454040"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button">
 
-            </TextView>
-
-
-            <ImageView
-                android:id="@+id/amigo"
-                android:layout_width="311dp"
-                android:layout_height="151dp"
-                android:layout_marginLeft="32sp"
-                android:layout_marginTop="15sp"
-                android:src="@drawable/video1"
-                android:translationZ="90dp" />
-
-            <TextView
-                android:id="@+id/descriamigo"
-                android:layout_width="282dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="45sp"
-                android:layout_marginTop="20sp"
-                android:fontFamily="@font/bryndan"
-                android:justificationMode="inter_word"
-                android:lineHeight="30sp"
-                android:text="O Amigossauro vai mostrar como amarrar..."
-                android:textColor="#201F1F"
-                android:textSize="23sp"
-                android:textStyle="normal" />
-
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="326dp"
-                android:layout_height="356dp"
-                android:layout_marginLeft="25sp"
-                android:layout_marginTop="20sp"
-                app:srcCompat="@drawable/borda_rosa" />
-
-            <TextView
-                android:id="@+id/textmariana"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="-30sp"
-                android:layout_marginTop="-320sp"
-                android:fontFamily="@font/bryndan"
-                android:gravity="center"
-                android:text="Mariana - Galinha
-                Pintadinha"
-                android:textColor="#D6417D"
-                android:textSize="25sp">
-
-            </TextView>
+                </TextView>
 
 
-            <ImageView
-                android:id="@+id/mariana"
-                android:layout_width="311dp"
-                android:layout_height="151dp"
-                android:layout_marginLeft="32sp"
-                android:layout_marginTop="15sp"
-                android:src="@drawable/video1"
-                android:translationZ="90dp" />
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="326dp"
+                    android:layout_height="386dp"
+                    android:layout_marginTop="136dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.333"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/borda_acoes" />
 
-            <TextView
-                android:id="@+id/descrimariana"
-                android:layout_width="282dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="45sp"
-                android:layout_marginTop="20sp"
-                android:fontFamily="@font/bryndan"
-                android:justificationMode="inter_word"
-                android:lineHeight="30sp"
-                android:text="Aprenda a contar os números cantando..."
-                android:textColor="#201F1F"
-                android:textSize="23sp"
-                android:textStyle="normal" />
+                <TextView
+                    android:id="@+id/textamigo"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Amigossauro - amarrar o sapato"
+                    android:textColor="#E8BF70"
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toTopOf="@+id/amigo"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toTopOf="@+id/imageView5"
+                    app:layout_constraintVertical_bias="0.771">
 
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="326dp"
-                android:layout_height="369dp"
-                android:layout_marginLeft="25sp"
-                android:layout_marginTop="40sp"
-                app:srcCompat="@drawable/borda_acoes" />
+                </TextView>
 
-            <TextView
-                android:id="@+id/textcoleta"
-                android:layout_width="314dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25sp"
-                android:layout_marginTop="-340sp"
-                android:fontFamily="@font/bryndan"
-                android:gravity="center"
-                android:text="Coleta Seletiva
-                e Reciclagem -
+                <ImageView
+                    android:id="@+id/amigo"
+                    android:layout_width="311dp"
+                    android:layout_height="151dp"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/video1"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toTopOf="@+id/descriamigo"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5" />
 
-                Turminha do Ecossistema"
-                android:textColor="#E8BF70"
-                android:textSize="25sp">
+                <TextView
+                    android:id="@+id/descriamigo"
+                    android:layout_width="282dp"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="O Amigossauro vai mostrar como amarrar..."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toTopOf="@+id/imageView5"
+                    app:layout_constraintVertical_bias="0.916" />
 
-            </TextView>
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="326dp"
+                    android:layout_height="386dp"
+                    android:layout_marginTop="28dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.416"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                    app:srcCompat="@drawable/borda_quemsomos" />
 
+                <TextView
+                    android:id="@+id/textmariana"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginEnd="76dp"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Mariana - Galinha Pintadinha"
+                    android:textColor="#D6417D"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageView2"
+                    app:layout_constraintTop_toTopOf="@+id/imageView2">
 
-            <ImageView
-                android:id="@+id/coleta"
-                android:layout_width="311dp"
-                android:layout_height="151dp"
-                android:layout_marginLeft="32sp"
-                android:layout_marginTop="20sp"
-                android:src="@drawable/video1"
-                android:translationZ="90dp" />
-
-            <TextView
-                android:id="@+id/descricoleta"
-                android:layout_width="282dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="45sp"
-                android:layout_marginTop="20sp"
-                android:fontFamily="@font/bryndan"
-                android:justificationMode="inter_word"
-                android:lineHeight="30sp"
-                android:text="É muito importante reciclar para evitar grandes..."
-                android:textColor="#201F1F"
-                android:textSize="23sp"
-                android:textStyle="normal" />
-
-            <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="326dp"
-                android:layout_height="359dp"
-                android:layout_marginLeft="25sp"
-                android:layout_marginTop="40sp"
-                app:srcCompat="@drawable/borda_quemsomos" />
-
-            <TextView
-                android:id="@+id/textbanho"
-                android:layout_width="314dp"
-                android:layout_height="107dp"
-                android:layout_marginLeft="25sp"
-                android:layout_marginTop="-350sp"
-                android:fontFamily="@font/bryndan"
-                android:gravity="center"
-                android:text="Ratinho Tomando Banho -
-
-                (Banho é Bom) Castelo
-
-                Rá-Tim-bom"
-                android:textColor="#D6417D"
-                android:textSize="25sp">
-
-            </TextView>
+                </TextView>
 
 
-            <ImageView
-                android:id="@+id/banho"
-                android:layout_width="311dp"
-                android:layout_height="151dp"
-                android:layout_marginLeft="32sp"
-                android:layout_marginTop="10sp"
-                android:src="@drawable/video1"
-                android:translationZ="90dp" />
+                <ImageView
+                    android:id="@+id/mariana"
+                    android:layout_width="311dp"
+                    android:layout_height="151dp"
+                    android:layout_marginTop="68dp"
+                    android:src="@drawable/video1"
+                    android:translationZ="90dp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                    app:layout_constraintHorizontal_bias="0.266"
+                    app:layout_constraintStart_toStartOf="@+id/imageView2"
+                    app:layout_constraintTop_toTopOf="@+id/textmariana" />
 
-            <TextView
-                android:id="@+id/describanho"
-                android:layout_width="282dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="45sp"
-                android:layout_marginTop="20sp"
-                android:fontFamily="@font/bryndan"
-                android:justificationMode="inter_word"
-                android:lineHeight="30sp"
-                android:text="O ratinho do castelo ra-tim-bum vai..."
-                android:textColor="#201F1F"
-                android:textSize="23sp"
-                android:textStyle="normal" />
+                <TextView
+                    android:id="@+id/descrimariana"
+                    android:layout_width="282dp"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Aprenda a contar os números cantando..."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                    app:layout_constraintStart_toStartOf="@+id/imageView2"
+                    app:layout_constraintTop_toBottomOf="@+id/mariana" />
 
-
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="326dp"
-                android:layout_height="348dp"
-                android:layout_marginLeft="25sp"
-                android:layout_marginTop="40sp"
-                app:srcCompat="@drawable/borda_acoes" />
-
-            <TextView
-                android:id="@+id/textalfabeto"
-                android:layout_width="314dp"
-                android:layout_height="61dp"
-                android:layout_marginLeft="25sp"
-                android:layout_marginTop="-320sp"
-                android:fontFamily="@font/bryndan"
-                android:gravity="center"
-                android:text="Xuxa -
-
-                Alfabeto da Xuxa"
-                android:textColor="#E8BF70"
-                android:textSize="25sp">
-
-            </TextView>
+                <ImageView
+                    android:id="@+id/imgcoleta"
+                    android:layout_width="326dp"
+                    android:layout_height="436dp"
+                    android:layout_marginTop="48dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.435"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/descrimariana"
+                    app:srcCompat="@drawable/borda_acoes" />
 
 
-            <ImageView
-                android:id="@+id/alfabeto"
-                android:layout_width="311dp"
-                android:layout_height="151dp"
-                android:layout_marginLeft="32sp"
-                android:layout_marginTop="20sp"
-                android:src="@drawable/video1"
-                android:translationZ="90dp" />
+                <TextView
+                    android:id="@+id/textcoleta"
+                    android:layout_width="244dp"
+                    android:layout_height="92dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="76dp"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Coleta Seletiva e Reciclagem - Turminha do Escossistema"
+                    android:textColor="#E8BF70"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imgcoleta"
+                    app:layout_constraintHorizontal_bias="0.136"
+                    app:layout_constraintStart_toStartOf="@+id/imgcoleta"
+                    app:layout_constraintTop_toTopOf="@+id/imgcoleta" />
 
-            <TextView
-                android:id="@+id/descrialfabeto"
-                android:layout_width="282dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="45sp"
-                android:layout_marginTop="20sp"
-                android:fontFamily="@font/bryndan"
-                android:justificationMode="inter_word"
-                android:lineHeight="30sp"
-                android:text="A Xuxa chegou para ensinar o alfabeto!..."
-                android:textColor="#201F1F"
-                android:textSize="23sp"
-                android:textStyle="normal" />
+                <ImageView
+                    android:id="@+id/coleta"
+                    android:layout_width="311dp"
+                    android:layout_height="151dp"
+                    android:layout_marginTop="116dp"
+                    android:src="@drawable/video1"
+                    android:translationZ="90dp"
+                    app:layout_constraintEnd_toEndOf="@+id/imgcoleta"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/imgcoleta"
+                    app:layout_constraintTop_toTopOf="@+id/textcoleta" />
 
-            <ImageView
-                android:id="@+id/algo"
-                android:layout_width="326dp"
-                android:layout_height="344dp"
-                android:layout_marginLeft="25sp"
-                android:layout_marginTop="40sp"
-                app:srcCompat="@drawable/borda_quemsomos" />
-
-            <TextView
-                android:id="@+id/textlado"
-                android:layout_width="314dp"
-                android:layout_height="69dp"
-                android:layout_marginLeft="25sp"
-                android:layout_marginTop="-330sp"
-                android:fontFamily="@font/bryndan"
-                android:gravity="center"
-                android:text="Xuxa -
-
-                Chefinho Mandou"
-                android:textColor="#D6417D"
-                android:textSize="25sp">
-
-            </TextView>
+                <TextView
+                    android:id="@+id/descricoleta"
+                    android:layout_width="282dp"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="É muito importante reciclar para evitar grandes..."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgcoleta"
+                    app:layout_constraintEnd_toEndOf="@+id/imgcoleta"
+                    app:layout_constraintHorizontal_bias="0.477"
+                    app:layout_constraintStart_toStartOf="@+id/imgcoleta"
+                    app:layout_constraintTop_toBottomOf="@+id/coleta"
+                    app:layout_constraintVertical_bias="0.826" />
 
 
-            <ImageView
-                android:id="@+id/lado"
-                android:layout_width="311dp"
-                android:layout_height="151dp"
-                android:layout_marginLeft="32sp"
-                android:layout_marginTop="10sp"
-                android:src="@drawable/video1"
-                android:translationZ="90dp" />
+                <ImageView
+                    android:id="@+id/imgbanho"
+                    android:layout_width="326dp"
+                    android:layout_height="436dp"
+                    android:layout_marginTop="48dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.435"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/descricoleta"
+                    app:srcCompat="@drawable/borda_quemsomos" />
 
-            <TextView
-                android:id="@+id/descrilado"
-                android:layout_width="282dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="45sp"
-                android:layout_marginTop="20sp"
-                android:fontFamily="@font/bryndan"
-                android:justificationMode="inter_word"
-                android:lineHeight="30sp"
-                android:text="Vamos aprender qual lado é o esquedo e qual..."
-                android:textColor="#201F1F"
-                android:textSize="23sp"
-                android:textStyle="normal" />
 
-            <ImageView
-                android:id="@+id/gotas"
-                android:layout_width="70dp"
-                android:layout_height="68dp"
-                android:layout_marginLeft="-10sp"
-                android:layout_marginTop="-1505dp"
-                app:srcCompat="@drawable/gotas" />
+                <TextView
+                    android:id="@+id/textbanho"
+                    android:layout_width="277dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="76dp"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="Ratinho Tomando Banho - (Banho é Bom) Castelo Rá-Tim-bom"
+                    android:textColor="#D6417D"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imgbanho"
+                    app:layout_constraintHorizontal_bias="0.298"
+                    app:layout_constraintStart_toStartOf="@+id/imgbanho"
+                    app:layout_constraintTop_toTopOf="@+id/imgbanho" />
 
-            <ImageView
-                android:id="@+id/gotas2"
-                android:layout_width="70dp"
-                android:layout_height="68dp"
-                android:layout_marginLeft="320sp"
-                android:layout_marginTop="-70dp"
-                android:rotationY="180"
-                app:srcCompat="@drawable/gotas" />
+                <ImageView
+                    android:id="@+id/banho"
+                    android:layout_width="311dp"
+                    android:layout_height="151dp"
+                    android:layout_marginTop="116dp"
+                    android:src="@drawable/video1"
+                    android:translationZ="90dp"
+                    app:layout_constraintEnd_toEndOf="@+id/imgbanho"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/imgbanho"
+                    app:layout_constraintTop_toTopOf="@+id/textbanho" />
 
+                <TextView
+                    android:id="@+id/describanho"
+                    android:layout_width="282dp"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="O ratinho do castelo ra-tim-bum vai..."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgbanho"
+                    app:layout_constraintEnd_toEndOf="@+id/imgbanho"
+                    app:layout_constraintHorizontal_bias="0.477"
+                    app:layout_constraintStart_toStartOf="@+id/imgbanho"
+                    app:layout_constraintTop_toBottomOf="@+id/banho"
+                    app:layout_constraintVertical_bias="0.826" />
+
+                <ImageView
+                    android:id="@+id/imgalfabeto"
+                    android:layout_width="326dp"
+                    android:layout_height="386dp"
+                    android:layout_marginTop="28dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.416"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgbanho"
+                    app:srcCompat="@drawable/borda_acoes" />
+
+                <TextView
+                    android:id="@+id/textalfabeto"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginEnd="76dp"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="XuXA - Alfabeto da Xuxa"
+                    android:textColor="#E8BF70"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imgalfabeto"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/imgalfabeto"
+                    app:layout_constraintTop_toTopOf="@+id/imgalfabeto">
+
+                </TextView>
+
+
+                <ImageView
+                    android:id="@+id/alfabeto"
+                    android:layout_width="311dp"
+                    android:layout_height="151dp"
+                    android:layout_marginTop="68dp"
+                    android:src="@drawable/video1"
+                    android:translationZ="90dp"
+                    app:layout_constraintEnd_toEndOf="@+id/imgalfabeto"
+                    app:layout_constraintHorizontal_bias="0.266"
+                    app:layout_constraintStart_toStartOf="@+id/imgalfabeto"
+                    app:layout_constraintTop_toTopOf="@+id/textalfabeto" />
+
+                <TextView
+                    android:id="@+id/descrialfabeto"
+                    android:layout_width="282dp"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="A Xuxa chegou para ensinar o alfabeto!..."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgalfabeto"
+                    app:layout_constraintEnd_toEndOf="@+id/imgalfabeto"
+                    app:layout_constraintStart_toStartOf="@+id/imgalfabeto"
+                    app:layout_constraintTop_toBottomOf="@+id/alfabeto" />
+
+
+                <ImageView
+                    android:id="@+id/imglado"
+                    android:layout_width="326dp"
+                    android:layout_height="386dp"
+                    android:layout_marginTop="28dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.416"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgalfabeto"
+                    app:srcCompat="@drawable/borda_quemsomos" />
+
+                <TextView
+                    android:id="@+id/textlado"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginEnd="76dp"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="XuXA - Chefinho Mandou"
+                    android:textColor="#D6417D"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imglado"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/imglado"
+                    app:layout_constraintTop_toTopOf="@+id/imglado">
+
+                </TextView>
+
+
+                <ImageView
+                    android:id="@+id/lado"
+                    android:layout_width="311dp"
+                    android:layout_height="151dp"
+                    android:layout_marginTop="68dp"
+                    android:src="@drawable/video1"
+                    android:translationZ="90dp"
+                    app:layout_constraintEnd_toEndOf="@+id/imglado"
+                    app:layout_constraintHorizontal_bias="0.266"
+                    app:layout_constraintStart_toStartOf="@+id/imglado"
+                    app:layout_constraintTop_toTopOf="@+id/textlado" />
+
+                <TextView
+                    android:id="@+id/descrilado"
+                    android:layout_width="282dp"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Vamos aprender qual lado é o esquedo e qual..."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imglado"
+                    app:layout_constraintEnd_toEndOf="@+id/imglado"
+                    app:layout_constraintStart_toStartOf="@+id/imglado"
+                    app:layout_constraintTop_toBottomOf="@+id/lado" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

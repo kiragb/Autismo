@@ -68,7 +68,7 @@ class Numeros : AppCompatActivity() {
         // add the link of pdf
         val intent = Intent(
             Intent.ACTION_VIEW,
-            Uri.parse("https://drive.google.com/file/d/1VKmIjAFaI_4ANcx24nqjiTjsRC5MuS3G/view?usp=share_link")
+            Uri.parse("https://drive.google.com/file/d/13V63HSQg5FnFltvZhjsvkUA6J4BGNvik/view?usp=share_link")
         )
 
         // start activity

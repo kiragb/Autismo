@@ -60,7 +60,7 @@ class Kent : AppCompatActivity() {
     }
     private fun viewpdf() {
         // add the link of pdf
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1sk6n9lPgVc_TgUpJi3FtTHrr_Mx9aNgS/view?usp=share_link"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1VKmIjAFaI_4ANcx24nqjiTjsRC5MuS3G/view?usp=share_link"))
 
         // start activity
         startActivity(intent)

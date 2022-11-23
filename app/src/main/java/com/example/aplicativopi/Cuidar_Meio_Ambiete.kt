@@ -67,7 +67,7 @@ class Cuidar_Meio_Ambiete : AppCompatActivity() {
         // add the link of pdf
         val intent = Intent(
             Intent.ACTION_VIEW,
-            Uri.parse("https://drive.google.com/file/d/14zulUhSi_5plGkwdz3HMYeJIEMZ6gq78/view?usp=share_link")
+            Uri.parse("https://drive.google.com/file/d/1CAV1DnQV_yiZofBCYhB9azzGondLrV9E/view?usp=share_link")
         )
 
         // start activity

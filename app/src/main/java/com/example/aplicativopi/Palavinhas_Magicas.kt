@@ -60,7 +60,7 @@ class Palavinhas_Magicas : AppCompatActivity() {
     }
     private fun viewpdf() {
         // add the link of pdf
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1UHAxGlFkUa26W36DncQXl44cJTxTBXMJ/view?usp=share_link"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1gKr_FCg3Vekqx3jgh5O4KZ8xdpQBISyf/view?usp=share_link"))
 
         // start activity
         startActivity(intent)

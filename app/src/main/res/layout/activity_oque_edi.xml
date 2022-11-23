@@ -95,7 +95,7 @@
 
             <ImageView
                 android:layout_width="334dp"
-                android:layout_height="1400dp"
+                android:layout_height="1340dp"
                 android:layout_marginLeft="20sp"
                 android:layout_marginTop="30sp"
                 android:src="@drawable/borda_quemsomos">
@@ -106,7 +106,7 @@
                 android:layout_width="302dp"
                 android:layout_height="717dp"
                 android:layout_marginLeft="35sp"
-                android:layout_marginTop="-1370sp"
+                android:layout_marginTop="-1320sp"
                 android:fontFamily="@font/bryndan"
                 android:justificationMode="inter_word"
                 android:lineHeight="30sp"
@@ -132,7 +132,7 @@
                 android:layout_width="302dp"
                 android:layout_height="420dp"
                 android:layout_marginLeft="35sp"
-                android:layout_marginTop="-30sp"
+                android:layout_marginTop="-15sp"
                 android:fontFamily="@font/bryndan"
                 android:justificationMode="inter_word"
                 android:lineHeight="30sp"

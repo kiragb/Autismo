@@ -149,7 +149,7 @@
             </Button>
 
             <Button
-                android:id="@+id/button29"
+                android:id="@+id/dicas"
                 android:layout_width="wrap_content"
                 android:layout_height="47dp"
                 android:layout_marginBottom="8dp"
@@ -216,7 +216,7 @@
                 android:textColor="#D6417D"
                 android:textSize="25sp"
                 android:translationZ="90sp"
-                app:layout_constraintBottom_toTopOf="@+id/button29"
+                app:layout_constraintBottom_toTopOf="@+id/dicas"
                 app:layout_constraintEnd_toEndOf="@+id/button30"
                 app:layout_constraintHorizontal_bias="0.133"
                 app:layout_constraintStart_toEndOf="@+id/imageView18"
@@ -249,7 +249,7 @@
                 android:textColor="#E8BF70"
                 android:textSize="25sp"
                 android:translationZ="90sp"
-                app:layout_constraintBottom_toTopOf="@+id/button31"
+                app:layout_constraintBottom_toTopOf="@+id/atendimento"
                 app:layout_constraintEnd_toEndOf="@+id/button2"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/imageView19"
@@ -257,6 +257,7 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <Button
+                android:id="@+id/di"
                 android:layout_width="wrap_content"
                 android:layout_height="47dp"
                 android:layout_marginEnd="32dp"
@@ -275,7 +276,7 @@
             </Button>
 
             <Button
-                android:id="@+id/button31"
+                android:id="@+id/atendimento"
                 android:layout_width="wrap_content"
                 android:layout_height="47dp"
                 android:layout_marginBottom="8dp"

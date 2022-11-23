@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFDF9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFDF9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="410dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.002">
+
+            </Button>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="111dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="-25dp"
+                android:layout_marginTop="-50dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="@+id/button"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/button"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:layout_width="108dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="@font/adlery"
+                android:gravity="center"
+                android:text="BRINK+"
+                android:textColor="#2E0084"
+                android:textSize="40dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="@+id/button"
+                app:layout_constraintHorizontal_bias="0.182"
+                app:layout_constraintStart_toStartOf="@+id/button"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="1.0">
+
+            </TextView>
+
+
+            <ImageView
+                android:id="@+id/menu"
+                android:layout_width="70dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="-40dp"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/button"
+                app:layout_constraintTop_toTopOf="@+id/button"
+                app:layout_constraintVertical_bias="0.647"
+                app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+
+            <TextView
+                android:layout_width="333dp"
+                android:layout_height="31dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/bryndan"
+                android:gravity="center"
+                android:text="DiCa 1"
+                android:textAllCaps="false"
+                android:textColor="#454040"
+                android:textSize="30sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="334dp"
+                android:layout_height="844dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="30sp"
+                android:src="@drawable/borda_acoes">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="115dp"
+                android:layout_marginLeft="35sp"
+                android:layout_marginTop="-1090sp"
+                android:fontFamily="@font/bryndan"
+                android:justificationMode="inter_word"
+                android:lineHeight="30sp"
+                android:text="Quando nós passamos a entender uma coisa  nós a compreendemos melhor."
+                android:textColor="#201F1F"
+                android:textSize="23sp" />
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="115dp"
+                android:layout_marginLeft="35sp"
+                android:layout_marginTop="155sp"
+                android:fontFamily="@font/bryndan"
+                android:justificationMode="inter_word"
+                android:lineHeight="30sp"
+                android:text="Com isso, ao você entender o tipo e o aspecto da deficiencia da criança irá ficar um pouco mais claro o que esperar da criança, o que precisa ser feito para a educação dela."
+                android:textColor="#201F1F"
+                android:textSize="23sp" />
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="347dp"
+                android:layout_marginLeft="35sp"
+                android:layout_marginTop="5sp"
+                android:fontFamily="@font/bryndan"
+                android:justificationMode="inter_word"
+                android:lineHeight="30sp"
+                android:text="Nós compreendemos que cuidar de crianças com DI é uma tarefa exaustiva em grande parte das vezes,onde tem que conviver com um certo estresse diário ao veras crianças com dificuldade de acompanhar tarefas cotidianas, Isso pode fazer com que os pais sintam tristeza, decepção, ressentimento ou frustação."
+                android:textColor="#201F1F"
+                android:textSize="23sp" />
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="347dp"
+                android:layout_marginLeft="35sp"
+                android:layout_marginTop="1sp"
+                android:fontFamily="@font/bryndan"
+                android:justificationMode="inter_word"
+                android:lineHeight="30sp"
+                android:text="Os sentimentos podem ser uma das causas que levam os reponsáveis desistir, se sintir culpados ou depressivos. Apesar desses sentimentos temos que lembrar que o amor por ele é maior, e a esperança e desejo de não ver-los sofrendo no futuro é algo que ninguém quer para o outro, principalmente quem ama."
+                android:textColor="#201F1F"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:id="@+id/gotas"
+                android:layout_width="70dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="75sp"
+                android:layout_marginTop="-925dp"
+                app:srcCompat="@drawable/gotas" />
+
+            <ImageView
+                android:id="@+id/gotas2"
+                android:layout_width="70dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="240sp"
+                android:layout_marginTop="-70dp"
+                android:rotationY="180"
+                app:srcCompat="@drawable/gotas" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

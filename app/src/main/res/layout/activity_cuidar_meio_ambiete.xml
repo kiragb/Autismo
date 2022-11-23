@@ -5,183 +5,218 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#FFFDF9"
+    android:fillViewport="true"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:background="#FFFDF9"
+        android:gravity="fill"
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="720dp"
+            android:layout_width="fill_parent"
+            android:layout_height="870dp"
             android:orientation="vertical">
-            <Button
-                android:id="@+id/button"
-                android:layout_width="410dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="-1dp"
-                android:background="@drawable/menu"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.002">
 
-            </Button>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="1820dp"
+                android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="111dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="-25dp"
-                android:layout_marginTop="-50dp"
-                android:translationZ="90dp"
-                app:layout_constraintBottom_toBottomOf="@+id/button"
-                app:layout_constraintEnd_toEndOf="@+id/button"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/button"
-                app:layout_constraintTop_toTopOf="@+id/button"
-                app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/logo" />
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="410dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-1dp"
+                    android:background="@drawable/menu"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.002">
 
-            <TextView
-                android:layout_width="108dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="-50dp"
-                android:fontFamily="@font/adlery"
-                android:gravity="center"
-                android:text="BRINK+"
-                android:textColor="#2E0084"
-                android:textSize="40dp"
-                android:translationZ="90dp"
-                app:layout_constraintBottom_toBottomOf="@+id/button"
-                app:layout_constraintEnd_toEndOf="@+id/button"
-                app:layout_constraintHorizontal_bias="0.182"
-                app:layout_constraintStart_toStartOf="@+id/button"
-                app:layout_constraintTop_toTopOf="@+id/button"
-                app:layout_constraintVertical_bias="1.0">
+                </Button>
 
-            </TextView>
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="111dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-25dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/logo" />
 
+                <TextView
+                    android:layout_width="108dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:fontFamily="@font/adlery"
+                    android:gravity="center"
+                    android:text="BRINK+"
+                    android:textColor="#2E0084"
+                    android:textSize="40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.182"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0">
 
-            <ImageView
-                android:id="@+id/menu"
-                android:layout_width="70dp"
-                android:layout_height="41dp"
-                android:layout_marginLeft="300dp"
-                android:layout_marginTop="-40dp"
-                android:translationZ="90dp"
-                app:layout_constraintBottom_toBottomOf="@+id/button"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="@+id/button"
-                app:layout_constraintTop_toTopOf="@+id/button"
-                app:layout_constraintVertical_bias="0.647"
-                app:srcCompat="@drawable/ic_baseline_menu_24" />
+                </TextView>
 
 
-            <TextView
-                android:layout_width="333dp"
-                android:layout_height="73dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/bryndan"
-                android:gravity="center"
-                android:text="CuIdAr Do MeIo
-                AmBiEnTe"
-                android:textAllCaps="false"
-                android:textColor="#454040"
-                android:textSize="30sp">
+                <ImageView
+                    android:id="@+id/menu"
+                    android:layout_width="70dp"
+                    android:layout_height="41dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="-40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.997"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/ic_baseline_menu_24" />
 
-            </TextView>
+                <ImageView
+                    android:id="@+id/gotas"
+                    android:layout_width="70dp"
+                    android:layout_height="68dp"
+                    android:layout_marginTop="36dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.105"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/gotas" />
 
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="352dp"
-                android:layout_height="342dp"
-                android:layout_marginLeft="15sp"
-                android:layout_marginTop="30sp"
-                app:srcCompat="@drawable/borda_quemsomos" />
+                <ImageView
+                    android:id="@+id/gotas2"
+                    android:layout_width="70dp"
+                    android:layout_height="68dp"
+                    android:layout_marginTop="36dp"
+                    android:rotationY="180"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.894"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/menu"
+                    app:srcCompat="@drawable/gotas" />
 
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="282dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="CuIdAr Do MeIo AmBiEnTe"                    android:textColor="#454040"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button">
 
-            <VideoView
-                android:id="@+id/simpleVideoView"
-                android:layout_width="299dp"
-                android:layout_height="166dp"
-                android:layout_marginLeft="45sp"
-                android:layout_marginTop="-315sp" />
-
-            <TextView
-                android:layout_width="302dp"
-                android:layout_height="137dp"
-                android:layout_marginLeft="40sp"
-                android:layout_marginTop="20sp"
-                android:fontFamily="@font/bryndan"
-                android:justificationMode="inter_word"
-                android:lineHeight="30sp"
-                android:text="Como cuidar do meio ambiente? Aprenda 10 dicas de como fazer isso da melhor forma possível."
-                android:textColor="#201F1F"
-                android:textSize="23sp"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="339dp"
-                android:layout_height="107dp"
-                android:layout_marginLeft="20sp"
-                android:layout_marginTop="60sp"
-                android:fontFamily="sans-serif"
-                android:textAlignment="center"
-                android:justificationMode="inter_word"
-                android:text="Clique no botão ou no link para baixar o arquivo e ter acesso à atividade."
-                android:textColor="#201F1F"
-                android:textSize="18sp"
-                android:textStyle="normal" />
+                </TextView>
 
 
-            <ImageView
-                android:layout_width="352dp"
-                android:layout_height="63dp"
-                android:layout_marginLeft="15sp"
-                android:layout_marginTop="-50sp"
-                android:src="@drawable/borda_quemsomos">
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="331dp"
+                    android:layout_height="442dp"
+                    android:layout_marginTop="136dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.333"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/borda_quemsomos" />
 
-            </ImageView>
 
-            <TextView
-                android:id="@+id/cuidarpdf"
-                android:layout_width="352dp"
-                android:layout_height="36dp"
-                android:layout_marginLeft="25sp"
-                android:layout_marginTop="-45sp"
-                android:fontFamily="@font/bryndan"
-                android:justificationMode="inter_word"
-                android:lineHeight="30sp"
-                android:text="@string/cuidar"
-                android:textColor="#201F1F"
-                android:textSize="18sp"
-                android:textStyle="normal" />
+                <VideoView
+                    android:id="@+id/simpleVideoView"
+                    android:layout_width="299dp"
+                    android:layout_height="166dp"
+                    app:layout_constraintBottom_toTopOf="@+id/descrivideo"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.468"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toTopOf="@+id/imageView5"
+                    app:layout_constraintVertical_bias="0.796" />
 
-            <ImageView
-                android:id="@+id/gotas"
-                android:layout_width="70dp"
-                android:layout_height="68dp"
-                android:layout_marginLeft="35sp"
-                android:layout_marginTop="-640dp"
-                app:srcCompat="@drawable/gotas" />
+                <TextView
+                    android:id="@+id/descrivideo"
+                    android:layout_width="247dp"
+                    android:layout_height="168dp"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Como cuidar do meio ambiente? Aprenda algumas dicas para ajudar a preservar o nosso planeta!"
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.474"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toTopOf="@+id/imageView5"
+                    app:layout_constraintVertical_bias="0.849" />
 
-            <ImageView
-                android:id="@+id/gotas2"
-                android:layout_width="70dp"
-                android:layout_height="68dp"
-                android:layout_marginLeft="290sp"
-                android:layout_marginTop="-70dp"
-                android:rotationY="180"
-                app:srcCompat="@drawable/gotas" />
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="339dp"
+                    android:layout_height="62dp"
+                    android:layout_marginTop="64dp"
+                    android:layout_marginEnd="36dp"
+                    android:fontFamily="sans-serif"
+                    android:justificationMode="inter_word"
+                    android:text="Clique no botão ou no link para baixar o arquivo e ter acesso à atividade."
+                    android:textAlignment="center"
+                    android:textColor="#201F1F"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
+                <ImageView
+                    android:id="@+id/pdf"
+                    android:layout_width="352dp"
+                    android:layout_height="83dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/borda_quemsomos"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.457"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView16">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/cuidarpdf"
+                    android:layout_width="344dp"
+                    android:layout_height="53dp"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="@string/cuidar"
+                    android:textColor="#201F1F"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/pdf"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.225"
+                    app:layout_constraintStart_toStartOf="@+id/pdf"
+                    app:layout_constraintTop_toTopOf="@+id/pdf"
+                    app:layout_constraintVertical_bias="0.566" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

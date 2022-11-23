@@ -10,6 +10,7 @@
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/border_image.xml" value="0.2095" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/botao_inicial.xml" value="0.1735" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/btamarelo.xml" value="0.2045" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/btamarelo2.xml" value="0.2095" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/card_cinza.xml" value="0.2095" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/cards_iniciais.xml" value="0.1735" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/drawable/degrade_menu.xml" value="0.2115" />
@@ -25,6 +26,14 @@
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_banho.xml" value="0.19010416666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_coleta.xml" value="0.19010416666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_cuidar_meio_ambiete.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dica1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dica2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dica3.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dica4.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dica5.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dica6.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dica7.xml" value="0.19010416666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_dicas.xml" value="0.20416666666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_domesticos.xml" value="0.19010416666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_escovar_dentinhos.xml" value="0.20416666666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_fale_conosco.xml" value="0.20416666666666666" />
@@ -47,6 +56,7 @@
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_origanizacao.xml" value="0.19010416666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_palavinhas_magicas.xml" value="0.19010416666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_preservando_natureza.xml" value="0.20416666666666666" />
+        <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_quebra_cabeca.xml" value="0.151268115942029" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_quem_somos.xml" value="0.22" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_reciclando.xml" value="0.19010416666666666" />
         <entry key="..\:/Aplicativo_de_PI/app/src/main/res/layout/activity_saiba_mais.xml" value="0.1675929884566054" />

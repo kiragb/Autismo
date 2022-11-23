@@ -57,7 +57,7 @@ class Matematica : AppCompatActivity() {
             startActivity(intent)
         }
 
-        descrikent= findViewById(R.id.descriekent)
+        descrikent= findViewById(R.id.descrikent)
         descrikent!!.setOnClickListener {
             val intent = Intent(this@Matematica, Kent::class.java)
             startActivity(intent)

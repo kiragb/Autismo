@@ -29,23 +29,6 @@ class Preservando_Natureza : AppCompatActivity() {
             startActivity(intent)
         }
 
-        textoquee = findViewById(R.id.textoquee)
-        textoquee!!.setOnClickListener {
-            val intent = Intent(this@Preservando_Natureza, O_Que_E_Meio_Ambiente::class.java)
-            startActivity(intent)
-        }
-
-        oquee = findViewById(R.id.oquee)
-        oquee!!.setOnClickListener {
-            val intent = Intent(this@Preservando_Natureza, O_Que_E_Meio_Ambiente::class.java)
-            startActivity(intent)
-        }
-
-        descrioquee = findViewById(R.id.descrioquee)
-        descrioquee!!.setOnClickListener {
-            val intent = Intent(this@Preservando_Natureza, O_Que_E_Meio_Ambiente::class.java)
-            startActivity(intent)
-        }
 
         textcuidar = findViewById(R.id.textcuidar)
         textcuidar!!.setOnClickListener {

@@ -60,7 +60,7 @@ class Origanizacao : AppCompatActivity() {
     }
     private fun viewpdf() {
         // add the link of pdf
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/14DTXBBL5X8aGkIr203w-WFFUUMuLH3fW/view?usp=share_link"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1GDT46QYBn5kv9OKkQjGbnmmq36kcTu4X/view?usp=share_link"))
 
         // start activity
         startActivity(intent)
