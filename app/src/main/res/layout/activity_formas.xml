@@ -117,10 +117,10 @@
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="268dp"
-                    android:layout_height="88dp"
+                    android:layout_height="wrap_content"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
-                    android:text=" ApReNdA AS fOrmMaS gEoMéTrIcAs "
+                    android:text="ApReNdA AS fOrmMaS gEoMéTrIcAs "
                     android:textAllCaps="false"
                     android:textColor="#454040"
                     android:textSize="30sp"
@@ -133,17 +133,17 @@
 
                 </TextView>
 
+
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="331dp"
                     android:layout_height="442dp"
                     android:layout_marginTop="136dp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.333"
+                    app:layout_constraintHorizontal_bias="0.45"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button"
                     app:srcCompat="@drawable/borda_acoes" />
-
 
                 <VideoView
                     android:id="@+id/simpleVideoView"
@@ -179,7 +179,6 @@
                     android:layout_width="339dp"
                     android:layout_height="62dp"
                     android:layout_marginTop="64dp"
-                    android:layout_marginEnd="36dp"
                     android:fontFamily="sans-serif"
                     android:justificationMode="inter_word"
                     android:text="Clique no botão ou no link para baixar o arquivo e ter acesso à atividade."
@@ -188,6 +187,7 @@
                     android:textSize="18sp"
                     android:textStyle="normal"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
                 <ImageView
@@ -205,21 +205,21 @@
 
                 <TextView
                     android:id="@+id/formaspdf"
-                    android:layout_width="355dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:fontFamily="@font/bryndan"
                     android:justificationMode="inter_word"
                     android:lineHeight="30sp"
                     android:text="ATIVIDADE-FORMAS-GEOMÉTRICAS.pdf"
                     android:textColor="#201F1F"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="@+id/pdf"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.517"
+                    app:layout_constraintEnd_toEndOf="@+id/pdf"
                     app:layout_constraintStart_toStartOf="@+id/pdf"
-                    app:layout_constraintTop_toTopOf="@+id/pdf"
-                    app:layout_constraintVertical_bias="0.818" />
+                    app:layout_constraintTop_toTopOf="@+id/pdf" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
+
     </LinearLayout>
 </ScrollView>

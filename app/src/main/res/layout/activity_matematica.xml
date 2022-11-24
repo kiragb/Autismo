@@ -135,9 +135,9 @@
                     android:id="@+id/imgformas"
                     android:layout_width="326dp"
                     android:layout_height="426dp"
-                    android:layout_marginTop="136dp"
+                    android:layout_marginTop="132dp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.333"
+                    app:layout_constraintHorizontal_bias="0.458"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button"
                     app:srcCompat="@drawable/borda_acoes" />
@@ -192,32 +192,29 @@
                     android:id="@+id/imgkent"
                     android:layout_width="326dp"
                     android:layout_height="386dp"
-                    android:layout_marginTop="28dp"
+                    android:layout_marginTop="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.416"
+                    app:layout_constraintHorizontal_bias="0.494"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imgformas"
                     app:srcCompat="@drawable/borda_quemsomos" />
+
 
                 <TextView
                     android:id="@+id/textkent"
                     android:layout_width="200sp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="36dp"
-                    android:layout_marginEnd="76dp"
+                    android:layout_marginTop="44dp"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
                     android:text="Arrumando o quarto com Kent"
                     android:textColor="#D6417D"
                     android:textSize="25sp"
                     app:layout_constraintEnd_toEndOf="@+id/imgkent"
-                    app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="@+id/imgkent"
                     app:layout_constraintTop_toTopOf="@+id/imgkent">
 
                 </TextView>
-
 
                 <ImageView
                     android:id="@+id/kent"
@@ -251,11 +248,11 @@
                     android:id="@+id/imgnum"
                     android:layout_width="326dp"
                     android:layout_height="386dp"
-                    android:layout_marginTop="48dp"
+                    android:layout_marginTop="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.435"
+                    app:layout_constraintHorizontal_bias="0.552"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/descrikent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgkent"
                     app:srcCompat="@drawable/borda_acoes" />
 
                 <TextView

@@ -5,139 +5,164 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#FFFDF9"
+    android:fillViewport="true"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:background="#FFFDF9"
+        android:gravity="fill"
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="500dp"
+            android:layout_width="fill_parent"
+            android:layout_height="850dp"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="410dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="-1dp"
-                android:background="@drawable/menu"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.002">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="1820dp"
+                android:orientation="vertical">
 
-            </Button>
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="410dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-1dp"
+                    android:background="@drawable/menu"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.002">
 
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="111dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="-25dp"
-                android:layout_marginTop="-50dp"
-                android:translationZ="90dp"
-                app:layout_constraintBottom_toBottomOf="@+id/button"
-                app:layout_constraintEnd_toEndOf="@+id/button"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/button"
-                app:layout_constraintTop_toTopOf="@+id/button"
-                app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/logo" />
+                </Button>
 
-            <TextView
-                android:layout_width="108dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="-50dp"
-                android:fontFamily="@font/adlery"
-                android:gravity="center"
-                android:text="BRINK+"
-                android:textColor="#2E0084"
-                android:textSize="40dp"
-                android:translationZ="90dp"
-                app:layout_constraintBottom_toBottomOf="@+id/button"
-                app:layout_constraintEnd_toEndOf="@+id/button"
-                app:layout_constraintHorizontal_bias="0.182"
-                app:layout_constraintStart_toStartOf="@+id/button"
-                app:layout_constraintTop_toTopOf="@+id/button"
-                app:layout_constraintVertical_bias="1.0">
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="111dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="-25dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/logo" />
 
-            </TextView>
+                <TextView
+                    android:layout_width="108dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:fontFamily="@font/adlery"
+                    android:gravity="center"
+                    android:text="BRINK+"
+                    android:textColor="#2E0084"
+                    android:textSize="40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.182"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0">
 
-
-            <ImageView
-                android:id="@+id/menu"
-                android:layout_width="70dp"
-                android:layout_height="41dp"
-                android:layout_marginLeft="300dp"
-                android:layout_marginTop="-40dp"
-                android:translationZ="90dp"
-                app:layout_constraintBottom_toBottomOf="@+id/button"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="@+id/button"
-                app:layout_constraintTop_toTopOf="@+id/button"
-                app:layout_constraintVertical_bias="0.647"
-                app:srcCompat="@drawable/ic_baseline_menu_24" />
+                </TextView>
 
 
-            <TextView
-                android:layout_width="333dp"
-                android:layout_height="31dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="40dp"
-                android:fontFamily="@font/bryndan"
-                android:gravity="center"
-                android:text="DiCa 4"
-                android:textAllCaps="false"
-                android:textColor="#454040"
-                android:textSize="30sp">
-
-            </TextView>
-
-            <ImageView
-                android:layout_width="334dp"
-                android:layout_height="265dp"
-                android:layout_marginLeft="20sp"
-                android:layout_marginTop="30sp"
-                android:src="@drawable/borda_quemsomos">
-
-            </ImageView>
-
-            <TextView
-                android:layout_width="302dp"
-                android:layout_height="236dp"
-                android:layout_marginLeft="35sp"
-                android:layout_marginTop="-240sp"
-                android:fontFamily="@font/bryndan"
-                android:justificationMode="inter_word"
-                android:lineHeight="30sp"
-                android:text="Como já mensionado ter as responsábilidades de alguém que cuida de uma criança com DI é desgastante, dessa forma, é importante que você satisfaça suas proprias necesidades, por isso descanse e recarregue as energias."
-                android:textColor="#201F1F"
-                android:textSize="23sp" />
+                <ImageView
+                    android:id="@+id/menu"
+                    android:layout_width="70dp"
+                    android:layout_height="41dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="-40dp"
+                    android:translationZ="90dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.997"
+                    app:layout_constraintStart_toStartOf="@+id/button"
+                    app:layout_constraintTop_toTopOf="@+id/button"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/ic_baseline_menu_24" />
 
 
-            <ImageView
-                android:id="@+id/gotas"
-                android:layout_width="70dp"
-                android:layout_height="68dp"
-                android:layout_marginLeft="75sp"
-                android:layout_marginTop="-340dp"
-                app:srcCompat="@drawable/gotas" />
+                <ImageView
+                    android:id="@+id/gotas"
+                    android:layout_width="70dp"
+                    android:layout_height="68dp"
+                    android:layout_marginTop="36dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.255"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/gotas" />
 
-            <ImageView
-                android:id="@+id/gotas2"
-                android:layout_width="70dp"
-                android:layout_height="68dp"
-                android:layout_marginLeft="240sp"
-                android:layout_marginTop="-70dp"
-                android:rotationY="180"
-                app:srcCompat="@drawable/gotas" />
+                <ImageView
+                    android:id="@+id/gotas2"
+                    android:layout_width="70dp"
+                    android:layout_height="68dp"
+                    android:layout_marginTop="36dp"
+                    android:rotationY="180"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.744"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/menu"
+                    app:srcCompat="@drawable/gotas" />
 
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="268dp"
+                    android:layout_height="88dp"
+                    android:fontFamily="@font/bryndan"
+                    android:gravity="center"
+                    android:text="DiCa 4"
+                    android:textAllCaps="false"
+                    android:textColor="#454040"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.495"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:layout_constraintVertical_bias="0.609">
+
+                </TextView>
+
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="325dp"
+                    android:layout_height="355dp"
+                    android:layout_marginTop="136dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/borda_quemsomos" />
+
+                <TextView
+                    android:id="@+id/descrivideo"
+                    android:layout_width="272dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bryndan"
+                    android:justificationMode="inter_word"
+                    android:lineHeight="30sp"
+                    android:text="Como já mensionado ter as responsábilidades de alguém que cuida de uma criança com DI é desgastante, dessa forma, é importante que você satisfaça suas proprias necesidades, por isso descanse e recarregue as energias."
+                    android:textColor="#201F1F"
+                    android:textSize="23sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                    app:layout_constraintHorizontal_bias="0.433"
+                    app:layout_constraintStart_toStartOf="@+id/imageView5"
+                    app:layout_constraintTop_toTopOf="@+id/imageView5"
+                    app:layout_constraintVertical_bias="0.298" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

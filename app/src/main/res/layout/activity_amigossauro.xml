@@ -136,11 +136,9 @@
                     android:layout_height="442dp"
                     android:layout_marginTop="136dp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.333"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button"
                     app:srcCompat="@drawable/borda_acoes" />
-
 
                 <VideoView
                     android:id="@+id/simpleVideoView"
@@ -156,7 +154,7 @@
                 <TextView
                     android:id="@+id/descrivideo"
                     android:layout_width="247dp"
-                    android:layout_height="168dp"
+                    android:layout_height="wrap_content"
                     android:fontFamily="@font/bryndan"
                     android:justificationMode="inter_word"
                     android:lineHeight="30sp"

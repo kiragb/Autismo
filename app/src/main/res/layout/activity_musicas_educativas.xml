@@ -137,7 +137,7 @@
                     android:layout_height="386dp"
                     android:layout_marginTop="136dp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.333"
+                    app:layout_constraintHorizontal_bias="0.423"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button"
                     app:srcCompat="@drawable/borda_acoes" />
@@ -199,25 +199,23 @@
                     app:layout_constraintTop_toBottomOf="@+id/imageView5"
                     app:srcCompat="@drawable/borda_quemsomos" />
 
+
                 <TextView
                     android:id="@+id/textmariana"
                     android:layout_width="200sp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="36dp"
-                    android:layout_marginEnd="76dp"
+                    android:layout_marginTop="32dp"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
                     android:text="Mariana - Galinha Pintadinha"
                     android:textColor="#D6417D"
                     android:textSize="25sp"
                     app:layout_constraintEnd_toEndOf="@+id/imageView2"
-                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintHorizontal_bias="0.46"
                     app:layout_constraintStart_toStartOf="@+id/imageView2"
                     app:layout_constraintTop_toTopOf="@+id/imageView2">
 
                 </TextView>
-
 
                 <ImageView
                     android:id="@+id/mariana"
@@ -262,7 +260,7 @@
                 <TextView
                     android:id="@+id/textcoleta"
                     android:layout_width="244dp"
-                    android:layout_height="92dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="28dp"
                     android:layout_marginEnd="76dp"
@@ -284,7 +282,7 @@
                     android:src="@drawable/video1"
                     android:translationZ="90dp"
                     app:layout_constraintEnd_toEndOf="@+id/imgcoleta"
-                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintHorizontal_bias="0.7"
                     app:layout_constraintStart_toStartOf="@+id/imgcoleta"
                     app:layout_constraintTop_toTopOf="@+id/textcoleta" />
 
@@ -377,25 +375,23 @@
                     app:layout_constraintTop_toBottomOf="@+id/imgbanho"
                     app:srcCompat="@drawable/borda_acoes" />
 
+
                 <TextView
                     android:id="@+id/textalfabeto"
                     android:layout_width="200sp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="36dp"
-                    android:layout_marginEnd="76dp"
+                    android:layout_marginTop="32dp"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
                     android:text="XuXA - Alfabeto da Xuxa"
                     android:textColor="#E8BF70"
                     android:textSize="25sp"
                     app:layout_constraintEnd_toEndOf="@+id/imgalfabeto"
-                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintHorizontal_bias="0.452"
                     app:layout_constraintStart_toStartOf="@+id/imgalfabeto"
                     app:layout_constraintTop_toTopOf="@+id/imgalfabeto">
 
                 </TextView>
-
 
                 <ImageView
                     android:id="@+id/alfabeto"
@@ -437,35 +433,33 @@
                     app:layout_constraintTop_toBottomOf="@+id/imgalfabeto"
                     app:srcCompat="@drawable/borda_quemsomos" />
 
+
                 <TextView
                     android:id="@+id/textlado"
                     android:layout_width="200sp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="36dp"
-                    android:layout_marginEnd="76dp"
+                    android:layout_marginTop="48dp"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
                     android:text="XuXA - Chefinho Mandou"
                     android:textColor="#D6417D"
                     android:textSize="25sp"
                     app:layout_constraintEnd_toEndOf="@+id/imglado"
-                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintHorizontal_bias="0.507"
                     app:layout_constraintStart_toStartOf="@+id/imglado"
                     app:layout_constraintTop_toTopOf="@+id/imglado">
 
                 </TextView>
 
-
                 <ImageView
                     android:id="@+id/lado"
                     android:layout_width="311dp"
                     android:layout_height="151dp"
-                    android:layout_marginTop="68dp"
+                    android:layout_marginTop="60dp"
                     android:src="@drawable/video1"
                     android:translationZ="90dp"
                     app:layout_constraintEnd_toEndOf="@+id/imglado"
-                    app:layout_constraintHorizontal_bias="0.266"
+                    app:layout_constraintHorizontal_bias="0.6"
                     app:layout_constraintStart_toStartOf="@+id/imglado"
                     app:layout_constraintTop_toTopOf="@+id/textlado" />
 
