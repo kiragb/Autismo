@@ -73,7 +73,6 @@
                 </TextView>
 
 
-
                 <ImageView
                     android:id="@+id/menu"
                     android:layout_width="70dp"
@@ -93,30 +92,32 @@
                     android:id="@+id/gotas"
                     android:layout_width="70dp"
                     android:layout_height="68dp"
+                    android:layout_marginLeft="120sp"
                     android:layout_marginTop="28dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.281"
+                    app:layout_constraintEnd_toStartOf="@+id/textView22"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button"
                     app:srcCompat="@drawable/gotas" />
+
 
                 <ImageView
                     android:id="@+id/gotas2"
                     android:layout_width="70dp"
                     android:layout_height="68dp"
+                    android:layout_marginLeft="-50sp"
                     android:layout_marginTop="28dp"
                     android:rotationY="180"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.741"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView22"
+                    app:layout_constraintTop_toBottomOf="@+id/menu"
                     app:srcCompat="@drawable/gotas" />
 
                 <TextView
                     android:id="@+id/textView22"
-                    android:layout_width="155dp"
-                    android:layout_height="66dp"
-                    android:layout_marginTop="28dp"
+                    android:layout_width="163dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="48dp"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
                     android:text="DiCaS"
@@ -124,7 +125,6 @@
                     android:textColor="#454040"
                     android:textSize="30sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.497"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button">
 

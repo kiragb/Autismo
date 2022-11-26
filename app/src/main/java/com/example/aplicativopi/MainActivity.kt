@@ -12,6 +12,9 @@ class MainActivity : AppCompatActivity() {
     var menu: ImageView? = null
     var acoescotidianas: Button? = null
     var musica: Button? = null
+    var ante: Button? = null
+    var silabas: Button? = null
+
 
     var abelha: VideoView? = null
     var mediaControls: MediaController? = null
@@ -33,6 +36,18 @@ class MainActivity : AppCompatActivity() {
         musica = findViewById(R.id.musica)
         musica!!.setOnClickListener {
             val intent = Intent(this@MainActivity, Musicas_Educativas::class.java)
+            startActivity(intent)
+        }
+
+        ante = findViewById(R.id.ante)
+        ante!!.setOnClickListener {
+            val intent = Intent(this@MainActivity, Antecessores_e_Sucessores::class.java)
+            startActivity(intent)
+        }
+
+        silabas = findViewById(R.id.silabas)
+        silabas!!.setOnClickListener {
+            val intent = Intent(this@MainActivity, Jogo_das_Silabas::class.java)
             startActivity(intent)
         }
 

@@ -4,6 +4,8 @@
     package="com.example.aplicativopi">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
 
     <application
         android:allowBackup="true"
@@ -15,6 +17,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AplicativoPI"
         tools:targetApi="31">
+        <activity
+            android:name=".Jogo_das_Silabas"
+            android:exported="false" />
+        <activity
+            android:name=".Antecessores_e_Sucessores"
+            android:exported="false" />
         <activity
             android:name=".Quebra_Cabeca"
             android:exported="false" />

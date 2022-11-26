@@ -90,13 +90,15 @@
                     app:layout_constraintVertical_bias="1.0"
                     app:srcCompat="@drawable/ic_baseline_menu_24" />
 
+
                 <ImageView
                     android:id="@+id/gotas"
                     android:layout_width="70dp"
                     android:layout_height="68dp"
-                    android:layout_marginTop="36dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.105"
+                    android:layout_marginLeft="40sp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintEnd_toStartOf="@+id/textView9"
+                    app:layout_constraintHorizontal_bias="0.049"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button"
                     app:srcCompat="@drawable/gotas" />
@@ -105,38 +107,41 @@
                     android:id="@+id/gotas2"
                     android:layout_width="70dp"
                     android:layout_height="68dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_marginLeft="-790sp"
+                    android:layout_marginTop="32dp"
                     android:rotationY="180"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.894"
-                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintHorizontal_bias="0.953"
+                    app:layout_constraintStart_toEndOf="@+id/textView9"
                     app:layout_constraintTop_toBottomOf="@+id/menu"
                     app:srcCompat="@drawable/gotas" />
+
 
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="282dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
-                    android:text="CuIdAr Do MeIo AmBiEnTe"                    android:textColor="#454040"
+                    android:text="CuIdAr Do MeIo AmBiEnTe"
+                    android:textColor="#454040"
                     android:textSize="30sp"
-                    app:layout_constraintBottom_toTopOf="@+id/imageView5"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button">
 
                 </TextView>
 
-
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="331dp"
                     android:layout_height="442dp"
-                    android:layout_marginTop="140dp"
+                    android:layout_marginTop="36dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9"
                     app:srcCompat="@drawable/borda_quemsomos" />
 
                 <VideoView

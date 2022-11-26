@@ -17,13 +17,13 @@
 
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="1800dp"
+            android:layout_height="2120dp"
             android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@id/linear"
                 android:layout_width="match_parent"
-                android:layout_height="1820dp"
+                android:layout_height="2120dp"
                 android:orientation="vertical">
 
                 <Button
@@ -95,9 +95,9 @@
                     android:id="@+id/gotas"
                     android:layout_width="70dp"
                     android:layout_height="68dp"
-                    android:layout_marginTop="20dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.199"
+                    android:layout_marginLeft="90sp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintEnd_toStartOf="@+id/textView9"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button"
                     app:srcCompat="@drawable/gotas" />
@@ -106,18 +106,19 @@
                     android:id="@+id/gotas2"
                     android:layout_width="70dp"
                     android:layout_height="68dp"
-                    android:layout_marginTop="24dp"
+                    android:layout_marginLeft="-30sp"
+                    android:layout_marginTop="32dp"
                     android:rotationY="180"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.794"
-                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView9"
                     app:layout_constraintTop_toBottomOf="@+id/menu"
                     app:srcCompat="@drawable/gotas" />
 
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="187dp"
-                    android:layout_height="70dp"
+                    android:layout_height="wrap_content"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
                     android:text="O qUe É dI"
@@ -137,8 +138,9 @@
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="333dp"
-                    android:layout_height="1600dp"
+                    android:layout_height="1900dp"
                     android:layout_marginTop="132dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button"
@@ -222,10 +224,11 @@
                     android:textColor="#201F1F"
                     android:textSize="23sp"
                     android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView5"
                     app:layout_constraintEnd_toEndOf="@+id/imageView5"
-                    app:layout_constraintHorizontal_bias="0.467"
                     app:layout_constraintStart_toStartOf="@+id/imageView5"
-                    app:layout_constraintTop_toBottomOf="@+id/parte4" />
+                    app:layout_constraintTop_toBottomOf="@+id/parte4"
+                    app:layout_constraintVertical_bias="0.0" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>

@@ -94,6 +94,7 @@
                     android:id="@+id/gotas"
                     android:layout_width="70dp"
                     android:layout_height="68dp"
+                    android:layout_marginLeft="10sp"
                     android:layout_marginTop="32dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.12"
@@ -105,6 +106,7 @@
                     android:id="@+id/gotas2"
                     android:layout_width="70dp"
                     android:layout_height="68dp"
+                    android:layout_marginLeft="-70sp"
                     android:layout_marginTop="32dp"
                     android:rotationY="180"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -115,8 +117,8 @@
 
                 <TextView
                     android:id="@+id/textView9"
-                    android:layout_width="338dp"
-                    android:layout_height="35dp"
+                    android:layout_width="218dp"
+                    android:layout_height="wrap_content"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
                     android:text="VoCaBuLáRiO"

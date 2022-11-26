@@ -91,13 +91,15 @@
                     app:srcCompat="@drawable/ic_baseline_menu_24" />
 
 
+
                 <ImageView
                     android:id="@+id/gotas"
                     android:layout_width="70dp"
                     android:layout_height="68dp"
-                    android:layout_marginTop="28dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.255"
+                    android:layout_marginLeft="90sp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintEnd_toStartOf="@+id/textView9"
+                    app:layout_constraintHorizontal_bias="0.049"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button"
                     app:srcCompat="@drawable/gotas" />
@@ -106,18 +108,19 @@
                     android:id="@+id/gotas2"
                     android:layout_width="70dp"
                     android:layout_height="68dp"
-                    android:layout_marginTop="28dp"
+                    android:layout_marginLeft="-1950sp"
+                    android:layout_marginTop="32dp"
                     android:rotationY="180"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.733"
-                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintHorizontal_bias="0.953"
+                    app:layout_constraintStart_toEndOf="@+id/textView9"
                     app:layout_constraintTop_toBottomOf="@+id/menu"
                     app:srcCompat="@drawable/gotas" />
 
                 <TextView
                     android:id="@+id/textView9"
-                    android:layout_width="268dp"
-                    android:layout_height="88dp"
+                    android:layout_width="190dp"
+                    android:layout_height="64dp"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
                     android:text="DiCa 1"

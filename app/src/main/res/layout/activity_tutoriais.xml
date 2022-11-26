@@ -93,8 +93,8 @@
 
                 <TextView
                     android:id="@+id/textView11"
-                    android:layout_width="333dp"
-                    android:layout_height="31dp"
+                    android:layout_width="143dp"
+                    android:layout_height="wrap_content"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
                     android:text="TuToRiAis"
@@ -153,6 +153,7 @@
                     app:layout_constraintVertical_bias="0.117" />
 
                 <Button
+                    android:id="@+id/ante"
                     android:layout_width="wrap_content"
                     android:layout_height="47dp"
                     android:background="@drawable/botao_inicial"
@@ -212,6 +213,7 @@
                     app:layout_constraintVertical_bias="0.656" />
 
                 <Button
+                    android:id="@+id/silabas"
                     android:layout_width="wrap_content"
                     android:layout_height="47dp"
                     android:layout_marginStart="24dp"
@@ -593,26 +595,24 @@
                     android:id="@+id/gotas"
                     android:layout_width="70dp"
                     android:layout_height="68dp"
-                    android:layout_marginBottom="4dp"
-                    app:layout_constraintBottom_toTopOf="@+id/button2"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.217"
+                    android:layout_marginLeft="90sp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintEnd_toStartOf="@+id/textView11"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button"
-                    app:layout_constraintVertical_bias="0.527"
                     app:srcCompat="@drawable/gotas" />
 
                 <ImageView
                     android:id="@+id/gotas2"
                     android:layout_width="70dp"
                     android:layout_height="68dp"
-                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="-10sp"
+                    android:layout_marginTop="32dp"
                     android:rotationY="180"
-                    app:layout_constraintBottom_toTopOf="@+id/button2"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.794"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView11"
+                    app:layout_constraintTop_toBottomOf="@+id/menu"
                     app:srcCompat="@drawable/gotas" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>

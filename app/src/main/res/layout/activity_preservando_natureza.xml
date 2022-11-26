@@ -89,14 +89,13 @@
                     app:layout_constraintTop_toTopOf="@+id/button"
                     app:layout_constraintVertical_bias="1.0"
                     app:srcCompat="@drawable/ic_baseline_menu_24" />
-
                 <ImageView
                     android:id="@+id/gotas"
                     android:layout_width="70dp"
                     android:layout_height="68dp"
+                    android:layout_marginLeft="50sp"
                     android:layout_marginTop="32dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.049"
+                    app:layout_constraintEnd_toStartOf="@+id/textView9"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button"
                     app:srcCompat="@drawable/gotas" />
@@ -105,17 +104,18 @@
                     android:id="@+id/gotas2"
                     android:layout_width="70dp"
                     android:layout_height="68dp"
+                    android:layout_marginLeft="-10sp"
                     android:layout_marginTop="32dp"
                     android:rotationY="180"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.953"
-                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView9"
                     app:layout_constraintTop_toBottomOf="@+id/menu"
                     app:srcCompat="@drawable/gotas" />
 
                 <TextView
                     android:id="@+id/textView9"
-                    android:layout_width="333dp"
+                    android:layout_width="213dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/bryndan"
                     android:gravity="center"
