@@ -16,10 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AplicativoPI"
         tools:targetApi="31">
-        <activity
-            android:name=".TelaCheiaMariana"
-            android:exported="false"
-            android:screenOrientation="landscape"/>
+
         <activity
             android:name=".Jogo_das_Silabas"
             android:exported="false" />
@@ -67,87 +64,73 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".Lado"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".Alfabeto"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".Numeros"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".Selvagens"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".Fazenda"
             android:exported="false"
-            android:screenOrientation="portrait" />
+            />
         <activity
             android:name=".Domesticos"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".Vocabulario"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Origanizacao"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".Palavinhas_Magicas"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".Kent"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".Formas"
             android:exported="false"
-            android:screenOrientation="portrait" />
+             />
         <activity
             android:name=".Matematica"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Banho"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".Coleta"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".Mariana"
             android:exported="false" />
         <activity
             android:name=".Amigossauro"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".Musicas_Educativas"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Reciclando"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".Cuidar_Meio_Ambiete"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".Preservando_Natureza"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Escovar_Dentinhos"
-            android:exported="false"
-            android:screenOrientation="portrait" />
+            android:exported="false" />
         <activity
             android:name=".Acoes_Cotidianas"
             android:exported="false"

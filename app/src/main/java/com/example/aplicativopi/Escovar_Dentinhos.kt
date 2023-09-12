@@ -1,70 +1,97 @@
 package com.example.aplicativopi
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.View
-import android.widget.*
+import android.view.WindowManager
+import android.widget.ImageView
+import android.widget.MediaController
+import android.widget.TextView
+import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.aplicativopi.Menu
+import com.example.aplicativopi.R
 
+class Escovar_Dentinhos : AppCompatActivity() {
 
-open class Escovar_Dentinhos : AppCompatActivity() {
-    var simpleVideoView: VideoView? = null
-    var mediaControls: MediaController? = null
-    var dentinhospdf: TextView? = null
+    private lateinit var videoView: VideoView
     var menu: ImageView? = null
+    var dentinhospdf: TextView? = null
+    var linkvideo: TextView? = null
+
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_escovar_dentinhos)
 
+        // preciso ver isso aqui
         menu = findViewById(R.id.menu)
         menu!!.setOnClickListener {
             val intent = Intent(this@Escovar_Dentinhos, Menu::class.java)
             startActivity(intent)
         }
 
-        // Find your VideoView in your video_main.xml layout
-        simpleVideoView = findViewById<View>(R.id.simpleVideoView) as VideoView
-        if (mediaControls == null) {
-            // create an object of media controller class
-            mediaControls = MediaController(this@Escovar_Dentinhos)
-            mediaControls!!.setAnchorView(simpleVideoView)
-        }
-        // set the media controller for video view
-        simpleVideoView!!.setMediaController(mediaControls)
-        // set the uri for the video view
-        simpleVideoView!!.setVideoURI(Uri.parse("android.resource://" + packageName + "/" + R.raw.escovar))
-        // start a video
-        simpleVideoView!!.start()
+        videoView = findViewById(R.id.VideoView)
+
+        // Define o caminho do vídeo a ser reproduzido (a partir do diretório res/raw)
+        val videoPath = "android.resource://" + packageName + "/" + R.raw.escovar
+
+        // Configura a URI do vídeo e os controles de mídia
+        val videoUri = Uri.parse(videoPath)
+        videoView.setVideoURI(videoUri)
+
+        // Configura os controles de mídia (play, pause, avançar, retroceder)
 
 
-        // implement on completion listener on video view
-        simpleVideoView!!.setOnCompletionListener {
-            Toast.makeText(applicationContext, "Parabéns, você terminou o vídeo!!!", Toast.LENGTH_LONG)
-                .show() // display a toast when an video is completed
-        }
-        simpleVideoView!!.setOnErrorListener { mp, what, extra ->
-            Toast.makeText(
-                applicationContext,
-                "Oops An Error Occur While Playing Video...!!!",
-                Toast.LENGTH_LONG
-            ).show() // display a toast when an error is occured while playing an video
-            false
-        }
+        val mediaController = MediaController(this)
+        mediaController.setAnchorView(videoView)
+        videoView.setMediaController(mediaController)
 
 
+        // Torna a janela em tela cheia
+
+        window.decorView.systemUiVisibility = (
+                View.SYSTEM_UI_FLAG_FULLSCREEN
+                        or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                        or View.SYSTEM_UI_FLAG_IMMERSIVE
+                )
+        // Inicia a reprodução do vídeo
 
         dentinhospdf = findViewById<View>(R.id.dentinhospdf) as TextView
         dentinhospdf!!.setOnClickListener {
-                viewpdf() }
+            viewpdf() }
 
+        linkvideo = findViewById<View>(R.id.linkvideo) as TextView
+        linkvideo!!.setOnClickListener {
+            linkvideo() }
     }
-     private fun viewpdf() {
+
+    override fun onResume() {
+        super.onResume()
+        // Mantém a tela sempre ligada enquanto o vídeo estiver em execução
+        window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+    }
+
+    override fun onPause() {
+        super.onPause()
+        // Remove a flag para manter a tela ligada quando a atividade estiver em pausa
+        window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+    }
+
+    private fun viewpdf() {
         // add the link of pdf
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1I2k5m4o3IUEiwkcrqB5iJAOCWMabj5oc/view?usp=share_link"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1I2k5m4o3IUEiwkcrqB5iJAOCWMabj5oc/view?usp=drive_link"))
 
         // start activity
         startActivity(intent)
     }
+    private fun linkvideo() {
+        // add the link of pdf
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=3Xij7TMPebI"))
 
+        // start activity
+        startActivity(intent)
+    }
 }

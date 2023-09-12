@@ -7,6 +7,7 @@ import android.view.View
 import android.view.WindowManager
 import android.widget.ImageView
 import android.widget.MediaController
+import android.widget.TextView
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.aplicativopi.Menu
@@ -17,6 +18,7 @@ class Mariana : AppCompatActivity() {
     private lateinit var videoView: VideoView
     var menu: ImageView? = null
     var cheia: ImageView? =null
+    var linkvideo: TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,7 +57,9 @@ class Mariana : AppCompatActivity() {
                 )
         // Inicia a reprodução do vídeo
 
-
+        linkvideo = findViewById<View>(R.id.linkvideo) as TextView
+        linkvideo!!.setOnClickListener {
+            linkvideo() }
     }
 
     override fun onResume() {
@@ -70,5 +74,11 @@ class Mariana : AppCompatActivity() {
         window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
     }
 
+    private fun linkvideo() {
+        // add the link of pdf
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=orxxp-3gBiE&pp=ygUHbWFyaWFuYQ%3D%3D"))
 
+        // start activity
+        startActivity(intent)
+    }
 }

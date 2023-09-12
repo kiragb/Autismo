@@ -25,6 +25,7 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="invisible"
         android:background="@drawable/menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,6 +42,7 @@
         android:layout_height="50dp"
         android:layout_marginLeft="-25dp"
         android:translationZ="90dp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/button"
         app:layout_constraintEnd_toEndOf="@+id/button"
         app:layout_constraintHorizontal_bias="0.0"
@@ -59,6 +61,7 @@
         android:textColor="#2E0084"
         android:textSize="40dp"
         android:translationZ="90dp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/button"
         app:layout_constraintEnd_toEndOf="@+id/button"
         app:layout_constraintHorizontal_bias="0.182"
@@ -73,7 +76,7 @@
         android:id="@+id/menu"
         android:layout_width="70dp"
         android:layout_height="41dp"
-        android:translationZ="90dp"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.997"
         app:layout_constraintStart_toStartOf="@+id/button"
@@ -82,6 +85,21 @@
         app:srcCompat="@drawable/ic_baseline_menu_24" />
 
 
-
+    <TextView
+        android:id="@+id/linkvideo"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bryndan"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:lineHeight="30sp"
+        android:text="Clique aqui para acessar o vídeo no YouTube."
+        android:textColor="#FFE3A9"
+        android:textSize="23sp"
+        android:textStyle="normal"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
