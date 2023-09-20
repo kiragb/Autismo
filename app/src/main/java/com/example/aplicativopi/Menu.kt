@@ -1,17 +1,17 @@
 package com.example.aplicativopi
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
 
 class Menu : AppCompatActivity() {
-    var inicio: ImageView? = null
-    var videoicon: ImageView? = null
-    var casa: ImageView? = null
-    var saibamais: ImageView? = null
-    var tutoriais: ImageView? = null
-    var quemsomos: ImageView? = null
+    private var inicio: ImageView? = null
+    private var videoicon: ImageView? = null
+    private var casa: ImageView? = null
+    private var saibamais: ImageView? = null
+    private var tutoriais: ImageView? = null
+    private var quemsomos: ImageView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

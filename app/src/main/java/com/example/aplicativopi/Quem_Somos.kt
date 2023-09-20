@@ -21,7 +21,7 @@ class Quem_Somos : AppCompatActivity() {
 
         quemsomos = findViewById(R.id.menu)
         quemsomos!!.setOnClickListener {
-            val intent = Intent(this@Quem_Somos, Menu_Quem_Somos::class.java)
+            val intent = Intent(this@Quem_Somos, Menu::class.java)
             startActivity(intent)
         }
 
@@ -32,7 +32,11 @@ class Quem_Somos : AppCompatActivity() {
     }
     private fun viewpdf() {
         // add the link of pdf
+<<<<<<< HEAD
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://brinquedosreutilizaveis.atspace.cc"))
+=======
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://kirabarbosa05.wixsite.com/meusite"))
+>>>>>>> c51f9ad (videos postos)
 
         // start activity
         startActivity(intent)

@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -26,6 +27,28 @@
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
+=======
+    android:translationZ="90dp"
+    tools:context=".MainActivity">
+
+
+    <!-- Adicione os botões e o SeekBar ao layout -->
+
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+>>>>>>> c51f9ad (videos postos)
         android:layout_height="wrap_content"
         android:background="@drawable/menu"
         android:visibility="invisible"
@@ -54,6 +77,10 @@
         app:srcCompat="@drawable/logo" />
 
     <TextView
+<<<<<<< HEAD
+=======
+        android:id="@+id/textView"
+>>>>>>> c51f9ad (videos postos)
         android:layout_width="108dp"
         android:layout_height="50dp"
         android:layout_marginRight="600dp"
@@ -62,8 +89,13 @@
         android:text="BRINK+"
         android:textColor="#2E0084"
         android:textSize="40dp"
+<<<<<<< HEAD
         android:visibility="invisible"
         android:translationZ="90dp"
+=======
+        android:translationZ="90dp"
+        android:visibility="invisible"
+>>>>>>> c51f9ad (videos postos)
         app:layout_constraintBottom_toBottomOf="@+id/button"
         app:layout_constraintEnd_toEndOf="@+id/button"
         app:layout_constraintHorizontal_bias="0.182"
@@ -79,18 +111,32 @@
         android:layout_width="70dp"
         android:layout_height="41dp"
         android:translationZ="90dp"
+<<<<<<< HEAD
+=======
+        android:visibility="invisible"
+>>>>>>> c51f9ad (videos postos)
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.997"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toTopOf="@+id/button"
+<<<<<<< HEAD
         app:layout_constraintVertical_bias="1.0"
         android:visibility="invisible"
         app:srcCompat="@drawable/ic_baseline_menu_24" />
 
+=======
+        app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+
+>>>>>>> c51f9ad (videos postos)
     <TextView
         android:id="@+id/domesticospdf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+        android:layout_marginEnd="168dp"
+>>>>>>> c51f9ad (videos postos)
         android:fontFamily="@font/bryndan"
         android:justificationMode="inter_word"
         android:lineHeight="30sp"
@@ -100,13 +146,22 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
         app:layout_constraintStart_toStartOf="@+id/linearLayout"
         app:layout_constraintTop_toBottomOf="@+id/button" />
+=======
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.61" />
+>>>>>>> c51f9ad (videos postos)
 
     <TextView
         android:id="@+id/linkvideo"
         android:layout_width="285dp"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+        android:layout_marginEnd="132dp"
+>>>>>>> c51f9ad (videos postos)
         android:fontFamily="@font/bryndan"
         android:gravity="center"
         android:justificationMode="inter_word"
@@ -118,6 +173,48 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/button" />
+=======
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.501" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/cinza"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <ImageView
+        android:id="@+id/playPauseImageView"
+        android:layout_width="76dp"
+        android:layout_height="68dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_play"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.184" />
+
+    <SeekBar
+        android:id="@+id/progressSeekBar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playPauseImageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+>>>>>>> c51f9ad (videos postos)
 </androidx.constraintlayout.widget.ConstraintLayout>
 

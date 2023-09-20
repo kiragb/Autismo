@@ -9,9 +9,12 @@ import android.widget.TextView
 class Preservando_Natureza : AppCompatActivity() {
 
     var inicio: ImageView? = null
+<<<<<<< HEAD
+=======
     var textoquee: TextView? = null
     var oquee: ImageView? = null
     var descrioquee: TextView? = null
+>>>>>>> c51f9ad (videos postos)
     var textcuidar: TextView? = null
     var cuidar: ImageView? = null
     var descricuidar: TextView? = null
